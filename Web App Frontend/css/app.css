@@ -133,8 +133,9 @@ body {
 
 #power-usage {
     margin-top: 35px;
+    margin-left: 5px;
 }
 
 #weather {
-    margin-top: 0px;
+    margin-left: 5px;
 }
