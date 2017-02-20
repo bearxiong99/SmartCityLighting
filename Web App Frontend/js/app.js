@@ -11,7 +11,6 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         temperature : 72,
         humidity : 98,
         proximity : 1
-        collapse: 'collapseOne';
     },
     {
         _id : '5828e870c66c89f5fbdfeeab',
@@ -24,7 +23,6 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         humidity : 96,
         proximity : 0,
         windSpeed : 20
-        collapse: 'collapseTwo';
     },
     {
         _id : '5828e870c66c89f5fbdfeeac',
@@ -36,7 +34,6 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         temperature : 73,
         humidity : 96,
         proximity : 0
-        collapse: 'collpaseThree';
     },
     {
         _id : '5828e870c66c89f5fbdfeead',
@@ -48,7 +45,6 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         temperature : 100,
         humidity : 99,
         proximity : 11
-        collapse: 'collapseFour';
     }
     ];
 

@@ -90,13 +90,33 @@
                             
                             <div class="row" id="panel-b">
                                 <div class="col-md-4">
-                                    <p>Column 1</p>
+                                    <h5><strong>Maintainenance Requests</strong></h5>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="row" id="weather">
+                                        <h5><strong>Weather</strong></h5>
+                                        <p>Temperature: {{module.temperature}}°F</p>
+                                        <p>Humidity: {{module.humidity}}%</p>
+                                        <p>Wind Speed: {{module.windSpeed}}mph</p>
+                                    </div>
+                                    <div class="row" id="power-usage">
+                                        <h5>
+                                        <strong>Power Usage</strong>
+                                        </h5>
+                                        <p>Today: 2 kWh</p>
+                                        <p>Monthly Avg: 60 kWh</p>
+                                        <p>Yearly Avg: 530 kWh</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div id="graph-placeholder"></div>
+                                     <div class="row" id="blank-space">
+                                    </div>
+                                    <div id="graph-placeholder"></div>
                                 </div>
                                 <div class="col-md-4">
-                                    <p>Column 2</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <p>Column 3</p>
+                                    <h5><strong>Location</strong></h5>
+                                    <div id="google-maps-placeholder"</div>
                                 </div>
                             </div>
                             

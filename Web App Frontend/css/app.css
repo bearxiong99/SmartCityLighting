@@ -104,3 +104,37 @@ body {
     height: 20px;
     text-align: left;
 }
+
+#google-maps-placeholder {
+    background-image: url("https://premium.wpmudev.org/wp-content/uploads/2011/04/Google-Maps.png");
+    height: 200px;
+    width: 250px;
+    background-size: cover; 
+}
+
+#panel-b h5 {
+    text-decoration: underline;
+    margin-top: 0px;
+}
+
+#graph-placeholder {
+    background-image: url("http://www.mathgoodies.com/lessons/graphs/images/line_example1.jpg");
+    height: 120px;
+    width: 140px;
+    background-size: cover;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    border: 1px black solid;
+}
+
+#blank-space {
+    height: 20px;
+}
+
+#power-usage {
+    margin-top: 35px;
+}
+
+#weather {
+    margin-top: 0px;
+}
