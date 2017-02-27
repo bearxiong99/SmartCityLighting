@@ -1,0 +1,16 @@
+
+#Flow for github 
+
+1. $ git checkout -b [name_of_your_new_branch]
+2. $ git push -u origin [name_of_your_new_branch]
+3. Make changes on branch
+4. Add changes, commit to branch
+5. git pull/ git push for changes made on the branch only
+6. Periodically $ git pull --rebase origin master
+	- this pulls in changes from master to your branch 
+	- helps you develop on an up-to-date master branch
+7. When you are ready to push your branch to master 
+	- do step #6 again
+	- make sure your changes still work
+	- $ git checkout master
+	- $ git merge [name_of_your_new_branch]
