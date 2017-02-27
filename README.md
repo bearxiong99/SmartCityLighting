@@ -1,2 +1,2 @@
 # SmartCityLighting
-This is the repo for our UT ECE Senior Design Team.
+this is a test and chris's shirt is cool
