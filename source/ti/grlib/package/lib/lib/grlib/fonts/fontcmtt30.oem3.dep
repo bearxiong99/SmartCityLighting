@@ -1,0 +1,7 @@
+package/lib/lib/grlib/./fonts/fontcmtt30.oem3: fonts/fontcmtt30.c /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/grlib/grlib.h /db/vendors/ti/arm/16.9.0/Linux/include/stdint.h /db/vendors/ti/arm/16.9.0/Linux/include/stdbool.h /db/vendors/ti/arm/16.9.0/Linux/include/assert.h /db/vendors/ti/arm/16.9.0/Linux/include/linkage.h 
+fonts/fontcmtt30.c:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/grlib/grlib.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdint.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdbool.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/assert.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/linkage.h:

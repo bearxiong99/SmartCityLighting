@@ -1,0 +1,9 @@
+package/lib/lib/drivers_cc26x0r2/package/package_ti.drivers.om3g:  package/package_ti.drivers.c  /db/rtree/library/trees/xdcprod/xdcprod-v22/product/xdccore/Linux/xdctools_3_32_01_22_core/packages/xdc/std.h  /db/vendors/linaro/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stdarg.h  /db/vendors/linaro/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h  /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/kernel/tirtos/packages/gnu/targets/arm/std.h  /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/kernel/tirtos/packages/gnu/targets/arm/M3.h  /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/kernel/tirtos/packages/gnu/targets/std.h  /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdint.h
+package/package_ti.drivers.c:
+/db/rtree/library/trees/xdcprod/xdcprod-v22/product/xdccore/Linux/xdctools_3_32_01_22_core/packages/xdc/std.h:
+/db/vendors/linaro/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stdarg.h:
+/db/vendors/linaro/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/kernel/tirtos/packages/gnu/targets/arm/std.h:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/kernel/tirtos/packages/gnu/targets/arm/M3.h:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/kernel/tirtos/packages/gnu/targets/std.h:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdint.h:

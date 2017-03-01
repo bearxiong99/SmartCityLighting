@@ -1,0 +1,8 @@
+package/lib/lib/drivers_cc26x0r2/I2S.oem3: I2S.c /db/vendors/ti/arm/16.9.0/Linux/include/stdbool.h /db/vendors/ti/arm/16.9.0/Linux/include/stdint.h /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/I2S.h /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/dpl/HwiP.h /db/vendors/ti/arm/16.9.0/Linux/include/stddef.h /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/utils/List.h 
+I2S.c:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdbool.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdint.h:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/I2S.h:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/dpl/HwiP.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/stddef.h:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/utils/List.h:

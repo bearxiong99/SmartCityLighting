@@ -1,0 +1,7 @@
+package/lib/lib/drivers_cc13x0/Camera.oem3: Camera.c /db/vendors/ti/arm/16.9.0/Linux/include/stdbool.h /db/vendors/ti/arm/16.9.0/Linux/include/stdint.h /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/Camera.h /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/dpl/HwiP.h /db/vendors/ti/arm/16.9.0/Linux/include/stddef.h 
+Camera.c:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdbool.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdint.h:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/Camera.h:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/dpl/HwiP.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/stddef.h:

@@ -1,0 +1,7 @@
+package/lib/lib/drivers_cc26x0/UART.oem3: UART.c /db/vendors/ti/arm/16.9.0/Linux/include/stdbool.h /db/vendors/ti/arm/16.9.0/Linux/include/stdint.h /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/UART.h /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/dpl/HwiP.h /db/vendors/ti/arm/16.9.0/Linux/include/stddef.h 
+UART.c:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdbool.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdint.h:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/UART.h:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/dpl/HwiP.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/stddef.h:

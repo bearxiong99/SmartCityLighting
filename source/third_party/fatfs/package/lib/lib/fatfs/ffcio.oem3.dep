@@ -1,0 +1,11 @@
+package/lib/lib/fatfs/ffcio.oem3: ffcio.c /db/vendors/ti/arm/16.9.0/Linux/include/stdio.h /db/vendors/ti/arm/16.9.0/Linux/include/stdlib.h /db/vendors/ti/arm/16.9.0/Linux/include/file.h ./ff.h ./ffcio.h /db/vendors/ti/arm/16.9.0/Linux/include/linkage.h /db/vendors/ti/arm/16.9.0/Linux/include/stdarg.h ./integer.h ./ffconf.h 
+ffcio.c:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdio.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdlib.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/file.h:
+./ff.h:
+./ffcio.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/linkage.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdarg.h:
+./integer.h:
+./ffconf.h:

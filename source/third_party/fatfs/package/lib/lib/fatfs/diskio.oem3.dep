@@ -1,0 +1,9 @@
+package/lib/lib/fatfs/diskio.oem3: diskio.c /db/vendors/ti/arm/16.9.0/Linux/include/stdio.h ./ffconf.h ./diskio.h /db/vendors/ti/arm/16.9.0/Linux/include/stdint.h /db/vendors/ti/arm/16.9.0/Linux/include/linkage.h /db/vendors/ti/arm/16.9.0/Linux/include/stdarg.h ./integer.h 
+diskio.c:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdio.h:
+./ffconf.h:
+./diskio.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdint.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/linkage.h:
+/db/vendors/ti/arm/16.9.0/Linux/include/stdarg.h:
+./integer.h:

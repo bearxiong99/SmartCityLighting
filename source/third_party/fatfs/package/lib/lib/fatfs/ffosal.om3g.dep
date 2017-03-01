@@ -1,0 +1,9 @@
+package/lib/lib/fatfs/ffosal.om3g: ffosal.c  /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/dpl/SemaphoreP.h  /db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdint.h  /db/vendors/linaro/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h  /db/vendors/linaro/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h  ff.h integer.h ffconf.h
+ffosal.c:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/source/ti/drivers/dpl/SemaphoreP.h:
+/db/vtree/library/trees/mcpi/mcpi-b14/exports/coresdk_cc13xx_cc26xx_3_01_00_14/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdint.h:
+/db/vendors/linaro/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h:
+/db/vendors/linaro/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h:
+ff.h:
+integer.h:
+ffconf.h:
