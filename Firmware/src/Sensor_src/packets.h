@@ -10,7 +10,7 @@
 
 // This file defines the structure of packets sent between nodes
 #include <stdint.h>
-
+extern uint8_t* dataArray;
 typedef enum
 {
   DiscoveryMessage, // Initial ping from in-network nodes to undiscovered nodes

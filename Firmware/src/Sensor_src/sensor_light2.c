@@ -19,7 +19,31 @@
 #include "packets.h"
 #include <stdlib.h>
 #include "acs712.h"
+#include "HDC1010.h"
 
+
+/*converts Sensor Struct to byte array*/
+uint8_t* structToArray(SensorDataStruct* s){
+    uint8_t* b = malloc(128*sizeof(uint8_t));
+    uint16_t temp = 0;
+    temp = s->temp;
+    b[0] = (temp&0xFF00) >> 8;
+    b[1] = temp&0x00FF;
+    temp = s->humidity;
+    b[2] = (temp&0xFF00) >> 8;
+    b[3] = temp&0x00FF;
+    temp = s->light;
+    b[4] = (temp&0xFF00) >> 8;
+    b[5] = temp&0x00FF;
+    temp = s->amps;
+    b[6] = (temp&0xFF00) >> 8;
+    b[7] = temp&0x00FF;
+    temp = s->motions;
+    b[8] = (temp&0xFF00) >> 8;
+    b[9] = temp&0x00FF;
+    free(s);
+    return b;
+}
 /*fill packet with sensor data*/
 SensorDataStruct* packageData(int temp, int humidity, int light, int amps, int motions) {
     SensorDataStruct* sp = malloc(sizeof(SensorData));
@@ -34,7 +58,7 @@ SensorDataStruct* packageData(int temp, int humidity, int light, int amps, int m
 
 void *sensor_light2(void *arg0) {
     uint8_t         txBuffer[4];
-    uint8_t         rxBuffer[2];
+    uint8_t         rxBuffer[4];
     I2C_Handle      i2c;
     I2C_Params      i2cParams;
     I2C_Transaction i2cTransaction;
@@ -49,24 +73,23 @@ void *sensor_light2(void *arg0) {
     id = get_TI_ID(txBuffer, rxBuffer, i2cTransaction, i2c);
     toggleLED(0);
     toggleLED2(0);
-    if(config(txBuffer, rxBuffer, i2cTransaction, i2c)) {
-        toggleLED(1);
-        toggleLED2(1);
-    }
+    config(txBuffer, rxBuffer, i2cTransaction, i2c);
+    setConfig(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
     //read light on loop
     while(1) {
+        requestTemp(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
         config_val = get_config(txBuffer, rxBuffer, i2cTransaction, i2c);
         if (config_val & 0x0080) {
             light = get_Light(txBuffer, rxBuffer, i2cTransaction, i2c);
         }
         uint16_t adc_val = Check_Light(adc);
-        SensorDataStruct* sp = packageData(0, 0, light, adc_val, 0);
-        if (light) {
-            light = 0;
-        }
         toggleLED2(z);
         z = !z;
         sleep(1);
+        int temp = getTemp(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
+        SensorDataStruct* sp = packageData(temp, 0, light, adc_val, 0);
+        uint8_t* toSend = structToArray(sp);
+        toggleLED(z);
     }
     //get_TI_ID(txBuffer, rxBuffer, i2cTransaction, i2c);
 
