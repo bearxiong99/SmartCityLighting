@@ -1,5 +1,5 @@
 
-var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
+var app = angular.module('LightsApp', []).controller('MainController', function($scope) {
     $scope.modules = [
     {
         _id : '5828e870c66c89f5fbdfeeaa',
@@ -10,7 +10,8 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         lampStatus : 'Operational',
         temperature : 72,
         humidity : 98,
-        proximity : 1
+        proximity : 1,
+        collapse: 'collapseOne'
     },
     {
         _id : '5828e870c66c89f5fbdfeeab',
@@ -22,7 +23,8 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         temperature : 73,
         humidity : 96,
         proximity : 0,
-        windSpeed : 20
+        windSpeed : 20,
+        collapse: 'collapseTwo'
     },
     {
         _id : '5828e870c66c89f5fbdfeeac',
@@ -31,9 +33,10 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         maintainedBy : 'Kassidy Knight',
         address : '2222 Pearl Street',
         lampStatus : 'Needs maintenance',
-        temperature : 73,
-        humidity : 96,
-        proximity : 0
+        temperature : 74,
+        humidity : 92,
+        proximity : 0,
+        collapse: 'collapseThree'
     },
     {
         _id : '5828e870c66c89f5fbdfeead',
@@ -44,7 +47,8 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         lampStatus : 'Operational',
         temperature : 100,
         humidity : 99,
-        proximity : 11
+        proximity : 11,
+        collapse: 'collapseFour'
     }
     ];
 
