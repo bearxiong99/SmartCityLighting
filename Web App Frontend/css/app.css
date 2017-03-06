@@ -40,7 +40,7 @@ body {
     font-size: 20px;
 }
 
-.footer{
+.footer {
     text-align: center;
     color:white;
     padding-top: 20px;
@@ -138,4 +138,33 @@ body {
 
 #weather {
     margin-left: 5px;
+}
+
+#table-body-scroll {
+    height: 200px;
+    overflow-y: auto;
+    display: inline-block;
+    width: 300px;
+}
+
+#table-body-scroll td {
+   width: 500px;
+}
+
+#table-head-scroll th {
+    width: 60px;
+}
+
+#table-head-scroll {
+    display: block;
+}
+
+#list-selector a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#map-selector a {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
