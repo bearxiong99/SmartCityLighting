@@ -54,36 +54,37 @@
             <p class="text-muted" id="search-bar">
                 <input class="form-control" autofocus="autofocus" style="max-width: 15em; display: block;" ng-model="searchText" placeholder="Search...">
                 
-                {{(modules| filter:searchText).length}} lights found
+                {{(lamps| filter:searchText).length}} lights found
             </p>
                     
-            <!-- List of lights (still experimental) -->
+            <!-- Loop through lamps -->
             <div class="panel-group" id="accordion">
-                <div ng-repeat="module in modules| filter:searchText | orderBy: 'title'" class="panel panel-default">
+                <div ng-repeat="lamp in lamps| filter:searchText | orderBy: 'title'" class="panel panel-default">
                             
                     <!-- Heading data -->
                     <div class="panel-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href='#{{module.collapse}}'>
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href='#{{lamp.collapse_id}}'>
                             <h4 class="panel-title">
-                                <p>{{module.title}}</p>
+                                <p>{{lamp.title}}</p>
                                 
                                 <div class="row" id="lamp-subheadings">
                                     <div class="col-md-4">
-                                        <h5>Description: <span>{{module.description}} </span></h5>
+                                        <h5>Description: <span>{{lamp.description}} </span></h5>
                                     </div>
                                     <div class="col-md-4">
-                                        <h5>Lamp Status: <span>{{module.lampStatus}}</span></h5>
+                                        <h5>Lamp Status: <span>{{lamp.lampStatus}}</span></h5>
                                     </div>
                                     <div class="col-md-4">
-                                        <h5>Address: <span>{{module.address}}</span></h5>
-                                    </div>    
+                                        <h5>Address: <span>{{lamp.address}}</span></h5>
+                                    </div>
+                                    
                                 </div>
                             </h4>
                         </a>
                     </div>
 
                     <!-- Body data -->
-                    <div id={{module.collapse}} class="panel-collapse collapse">
+                    <div id={{lamp.collapse_id}} class="panel-collapse collapse">
                         <div class="panel-body">
                             
                             <div class="row" id="panel-b">
@@ -99,36 +100,13 @@
                                             </tr>
                                         </thead>
                                         
+                                        <!-- Loop through maintenance requests -->
                                         <tbody id="table-body-scroll">
-                                            <tr class="danger">
-                                                <td>Bulb outage</td>
-                                                <td>10/09/16</td>
-                                                <td>02:15</td>
-                                                <td>NO</td>
-                                            </tr>
-                                            <tr class="success">
-                                                <td>Faulty sensor</td>
-                                                <td>10/04/16</td>
-                                                <td>17:32</td>
-                                                <td>YES</td>
-                                            </tr>
-                                            <tr class="success">
-                                                <td>Faulty sensor</td>
-                                                <td>08/15/16</td>
-                                                <td>20:40</td>
-                                                <td>YES</td>
-                                            </tr>
-                                            <tr class="success">
-                                                <td>Faulty sensor</td>
-                                                <td>06/23/16</td>
-                                                <td>05:18</td>
-                                                <td>YES</td>
-                                            </tr>
-                                            <tr class="success">
-                                                <td>Faulty sensor</td>
-                                                <td>05/08/16</td>
-                                                <td>12:24</td>
-                                                <td>YES</td>
+                                            <tr class="{{request.status}}" ng-repeat="request in lamp.requests">
+                                                <td>{{request.description}}</td>
+                                                <td>{{request.dateTime | date:"shortDate"}}</td>
+                                                <td>{{request.dateTime | date:"shortTime"}}</td>
+                                                <td>{{request.completed}}</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -136,17 +114,17 @@
                                 <div class="col-md-2">
                                     <div class="row" id="weather">
                                         <h5><strong>Weather</strong></h5>
-                                        <p>Temperature: {{module.temperature}}°F</p>
-                                        <p>Humidity: {{module.humidity}}%</p>
-                                        <p>Wind Speed: {{module.windSpeed}}mph</p>
+                                        <p>Temperature: {{lamp.weather.temperature}}°F</p>
+                                        <p>Humidity: {{lamp.weather.humidity}}%</p>
+                                        <p>Wind Speed: {{lamp.weather.windSpeed}}mph</p>
                                     </div>
                                     <div class="row" id="power-usage">
                                         <h5>
                                         <strong>Power Usage</strong>
                                         </h5>
-                                        <p>Today: 2 kWh</p>
-                                        <p>Monthly Avg: 60 kWh</p>
-                                        <p>Yearly Avg: 530 kWh</p>
+                                        <p>Today: {{lamp.power.today}} kWh</p>
+                                        <p>Monthly Avg: {{lamp.power.monthly}} kWh</p>
+                                        <p>Yearly Avg: {{lamp.power.yearly}} kWh</p>
                                     </div>
                                 </div>
                                 <div class="col-md-2">

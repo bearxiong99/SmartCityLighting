@@ -1,13 +1,6 @@
 body {
     margin-bottom: 80px;
 }
-.logo {
-    height: 150px;
-    background: url('../logo/light.png') no-repeat;
-    background-size: contain;
-    background-position-x: 100%;
-    margin-top: 10px;
-}
 .bs-docs-social {
     text-align: center;
 }
@@ -26,7 +19,7 @@ body {
 .jumbotron {
     padding-top: 28px;
     padding-bottom: 18px;
-    background: url("https://static.pexels.com/photos/207489/pexels-photo-207489.jpeg") no-repeat center center;
+    background: url("../images/lightbulbs.jpeg") no-repeat center center;
     background-size: cover;
     color: black;
 }
