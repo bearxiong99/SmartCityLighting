@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="top" lang="en" ng-app="demo">
+<html id="top" lang="en" ng-app="LightsApp">
 
 <head>
     <!-- Title and image seen on browser bar -->
@@ -24,7 +24,7 @@
         
 </head>
 
-<body ng-controller="DemoCtrl">
+<body ng-controller="MainController">
             
     <!-- Website header -->
     <header class="jumbotron" id="overview">
@@ -63,7 +63,7 @@
                             
                     <!-- Heading data -->
                     <div class="panel-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href='#{{module.collapse}}'>
                             <h4 class="panel-title">
                                 <p>{{module.title}}</p>
                                 
@@ -83,7 +83,7 @@
                     </div>
 
                     <!-- Body data -->
-                    <div id="collapseOne" class="panel-collapse collapse">
+                    <div id={{module.collapse}} class="panel-collapse collapse">
                         <div class="panel-body">
                             
                             <div class="row" id="panel-b">
@@ -160,19 +160,6 @@
                                     <div id="google-maps-placeholder"></div>
                                 </div>
                             </div>
-                            
-                            <!-- ADDITIONAL DATA
-
-                            <p class="list-group-item-text text-muted"><strong>Temperature: </strong>{{module.temperature}}</p>
-                            
-                            <p class="list-group-item-text text-muted"><strong>Humidity: </strong>{{module.humidity}}</p>
-                            
-                            <p class="list-group-item-text text-muted"><strong>Proximity: </strong>{{module.proximity}}</p>
-                            
-                            <p class="list-group-item-text text-muted"><strong>Wind speed: </strong>{{module.windSpeed}}</p>
-                            
-                            <p class="list-group-item-text text-muted"><strong>Maintained by: </strong>{{module.maintainedBy}}</p>
-                            -->
                         </div>
                     </div>
                     
