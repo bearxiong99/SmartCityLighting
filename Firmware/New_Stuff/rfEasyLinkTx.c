@@ -34,7 +34,7 @@
  *  ======== rfEasyLinkTx.c ========
  */
 
-#include "sensors.h"
+#include "Sensors.h"
 /* XDCtools Header files */
 #include <stdlib.h>
 #include <xdc/std.h>
@@ -148,14 +148,11 @@ static void rfEasyLinkTxFnx(UArg arg0, UArg arg1)
         txPacket.payload[0] = (uint8_t)(seqNumber >> 8);
         txPacket.payload[1] = (uint8_t)(seqNumber++);
         uint8_t i;
-
-        uint8_t* packetData = getMeasurements();
-
-
+        uint8_t* dataPacket = getMeasurements();
 
         for (i = 2; i < RFEASYLINKTXPAYLOAD_LENGTH; i++)
         {
-          txPacket.payload[i] = packetData[i-2];
+          txPacket.payload[i] = dataPacket[i-2];
         }
 
         txPacket.len = RFEASYLINKTXPAYLOAD_LENGTH;
@@ -228,20 +225,25 @@ int main(void)
     /* Call driver init functions. */
     Board_initGeneral();
 
-    /* Open LED pins */
-    pinHandle = PIN_open(&pinState, pinTable);
-    if(!pinHandle) {
-        System_abort("Error initializing board LED pins\n");
-    }
 
-    /* Clear LED pins */
+//    /* Open LED pins */
+    pinHandle = PIN_open(&pinState, pinTable);
+//    if(!pinHandle) {
+//        System_abort("Error initializing board LED pins\n");
+//    }
+//
+//    /* Clear LED pins */
     PIN_setOutputValue(pinHandle, Board_PIN_LED1, 0);
     PIN_setOutputValue(pinHandle, Board_PIN_LED2, 0);
-
+//
     txTask_init(pinHandle);
-
+    GPIO_init();
+    I2C_init();
+    ADC_init();
+    init_sensors();
     /* Start BIOS */
     BIOS_start();
+
 
     return (0);
 }

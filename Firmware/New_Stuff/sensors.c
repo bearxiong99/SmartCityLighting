@@ -7,8 +7,13 @@
 
 /*Thread that runs the OPT3001 light sensor.*/
 
-#include "sensors.h"
-
+#include "Sensors.h"
+    uint8_t         txBuffer[4];
+    uint8_t         rxBuffer[4];
+    I2C_Handle      i2c;
+    I2C_Params      i2cParams;
+    I2C_Transaction i2cTransaction;
+    ADC_Handle adc;
 /*get interrupt from motion sensor*/
 void initMotion(void){
 
@@ -47,30 +52,25 @@ SensorDataStruct* packageData(int temp, int humidity, int light, int amps, int m
     return sp;
 }
 /*main thread*/
-
-//void *sensor_light2(void *arg0) {
-uint8_t* getMeasurements(void) {
-    uint8_t         txBuffer[4];
-    uint8_t         rxBuffer[4];
-    I2C_Handle      i2c;
-    I2C_Params      i2cParams;
-    I2C_Transaction i2cTransaction;
-    int id = 0;
-    int light = 0;
-    uint16_t config_val = 0;
+void init_sensors(void){
     I2C_Params_init(&i2cParams);
     i2cParams.bitRate = I2C_400kHz;
     i2c = I2C_open(Board_I2C0, &i2cParams);
-    ADC_Handle adc = a_init();
-    int z = 1;
-    id = get_TI_ID(txBuffer, rxBuffer, i2cTransaction, i2c);
+    adc = a_init();
+    //int id = get_TI_ID(txBuffer, rxBuffer, i2cTransaction, i2c);
     toggleLED(0);
     toggleLED2(0);
+}
+//void *sensor_light2(void *arg0) {
+uint8_t* getMeasurements(void) {
+    int z = 1;
+    int light = 0;
+    uint16_t config_val = 0;
     config(txBuffer, rxBuffer, i2cTransaction, i2c);
     setConfig(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
+    requestTemp(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
     //read light on loop
     while(1) {
-        requestTemp(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
         config_val = get_config(txBuffer, rxBuffer, i2cTransaction, i2c);
         if (config_val & 0x0080) {
             light = get_Light(txBuffer, rxBuffer, i2cTransaction, i2c);
@@ -78,11 +78,9 @@ uint8_t* getMeasurements(void) {
         uint16_t adc_val = Check_Light(adc);
         toggleLED2(z);
         z = !z;
-        //wait(1);
         int temp = getTemp(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
         int hum = (rxBuffer[2] << 8) + rxBuffer[3];
         SensorDataStruct* sp = packageData(temp, hum, light, adc_val, 0);
-        //SensorDataStruct* sp = packageData(1, 2, 3, 4, 5);
 
         if (sp->temp != 0){
             uint8_t* toSend = structToArray(sp);
@@ -92,6 +90,6 @@ uint8_t* getMeasurements(void) {
         toggleLED(z);
         //end of loop
     }
-    get_TI_ID(txBuffer, rxBuffer, i2cTransaction, i2c);
+    //get_TI_ID(txBuffer, rxBuffer, i2cTransaction, i2c);
 
 }
