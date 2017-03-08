@@ -67,23 +67,24 @@ uint8_t* getMeasurements(void) {
     int light = 0;
     uint16_t config_val = 0;
     int id = get_TI_ID(txBuffer, rxBuffer, i2cTransaction, i2c);
-    config(txBuffer, rxBuffer, i2cTransaction, i2c);
+    int good_config = config(txBuffer, rxBuffer, i2cTransaction, i2c);
     setConfig(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
     requestTemp(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
     //read light on loop
     while(1) {
-        config_val = get_config(txBuffer, rxBuffer, i2cTransaction, i2c);
-        if (config_val & 0x0080) {
-            light = get_Light(txBuffer, rxBuffer, i2cTransaction, i2c);
-        }
+        //config_val = get_config(txBuffer, rxBuffer, i2cTransaction, i2c);
+        //while((get_config(txBuffer, rxBuffer, i2cTransaction, i2c) & 0x0080) == 0) {}
+        //light = get_Light(txBuffer, rxBuffer, i2cTransaction, i2c);
+
         uint16_t adc_val = Check_Light(adc);
         toggleLED2(z);
         z = !z;
+        light = get_Light(txBuffer, rxBuffer, i2cTransaction, i2c);
         int temp = getTemp(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
         int hum = (rxBuffer[2] << 8) + rxBuffer[3];
         SensorDataStruct* sp = packageData(temp, hum, light, adc_val, 0);
 
-        if (sp->temp != 0){
+        if (sp->temp != 0 && sp->light != 0){
             uint8_t* toSend = structToArray(sp);
             return toSend;
         }
