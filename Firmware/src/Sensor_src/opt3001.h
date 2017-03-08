@@ -7,12 +7,12 @@
 
 #ifndef OPT3001_H_
 #define OPT3001_H_
-#include <ti/devices/cc13x0/driverlib/i2c.h>
+#include <ti/drivers/I2C.h>
 #include <ti/drivers/GPIO.h>
 #include <Board.h>
 #include <ti/drivers/I2C.h>
 #include <stdint.h>
-#include <unistd.h>
+/*#include <unistd.h>*/
 #include "LED.h"
 
 /*Get TI ID*/

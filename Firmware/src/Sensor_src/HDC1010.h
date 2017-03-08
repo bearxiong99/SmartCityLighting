@@ -9,8 +9,7 @@
 #include <Board.h>
 #include <stdint.h>
 #include <stddef.h>
-#include <unistd.h>
-
+/*#include <unistd.h>*/
 #ifndef HDC1010_H_
 #define HDC1010_H_
 #define HDCTEMP 0x00

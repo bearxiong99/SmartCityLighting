@@ -8,13 +8,11 @@
 #ifndef ACS712_H_
 #define ACS712_H_
 
-#include <ti/devices/cc13x0/driverlib/i2c.h>
-#include <ti/drivers/ADC.h>
 #include <Board.h>
 #include <ti/drivers/I2C.h>
 #include <stdint.h>
 #include "LED.h"
-#include <unistd.h>
+/*#include <unistd.h>*/
 
 
 /*Prepare all Hardware thread will use*/

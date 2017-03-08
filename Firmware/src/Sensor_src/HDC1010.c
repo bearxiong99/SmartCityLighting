@@ -35,7 +35,7 @@ void setConfig(I2C_Handle i2c, I2C_Transaction temp, uint8_t* txBuf, uint8_t* rx
     temp.readCount = 0;
     temp.writeCount = 2;
     txBuf[0] = 0x2;
-    txBuf[1] = 0x00;
+    txBuf[1] = 0x10;
     txBuf[2] = 0x00;
     I2C_transfer(i2c, &temp);
 }
@@ -53,9 +53,12 @@ int getTemp(I2C_Handle i2c, I2C_Transaction temp, uint8_t* txBuf, uint8_t* rxBuf
     temp.writeBuf = txBuf;
     txBuf[0] = 0x00;
     temp.readBuf = rxBuf;
-    temp.readCount = 2;
+    temp.readCount = 4;
     temp.writeCount = 0;
-    I2C_transfer(i2c, &temp);
-    return (rxBuf[0] << 8) + rxBuf[1];
+    if(I2C_transfer(i2c, &temp)) {
+        return (rxBuf[0] << 8) + rxBuf[1];
+    } else {
+        return 0;
+    }
 }
 

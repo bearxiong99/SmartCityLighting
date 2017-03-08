@@ -7,20 +7,12 @@
 
 /*Thread that runs the OPT3001 light sensor.*/
 
+#include "sensors.h"
 
-#include <ti/devices/cc13x0/driverlib/i2c.h>
-#include <ti/drivers/GPIO.h>
-#include <Board.h>
-#include <ti/drivers/I2C.h>
-#include <stdint.h>
-#include <unistd.h>
-#include "LED.h"
-#include "opt3001.h"
-#include "packets.h"
-#include <stdlib.h>
-#include "acs712.h"
-#include "HDC1010.h"
+/*get interrupt from motion sensor*/
+void initMotion(void){
 
+}
 
 /*converts Sensor Struct to byte array*/
 uint8_t* structToArray(SensorDataStruct* s){
@@ -56,7 +48,8 @@ SensorDataStruct* packageData(int temp, int humidity, int light, int amps, int m
 }
 /*main thread*/
 
-void *sensor_light2(void *arg0) {
+//void *sensor_light2(void *arg0) {
+uint8_t* getMeasurements(void) {
     uint8_t         txBuffer[4];
     uint8_t         rxBuffer[4];
     I2C_Handle      i2c;
@@ -85,11 +78,18 @@ void *sensor_light2(void *arg0) {
         uint16_t adc_val = Check_Light(adc);
         toggleLED2(z);
         z = !z;
-        sleep(1);
+        //wait(1);
         int temp = getTemp(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
-        SensorDataStruct* sp = packageData(temp, 0, light, adc_val, 0);
-        uint8_t* toSend = structToArray(sp);
+        int hum = (rxBuffer[2] << 8) + rxBuffer[3];
+        SensorDataStruct* sp = packageData(temp, hum, light, adc_val, 0);
+
+        if (sp->temp != 0){
+            uint8_t* toSend = structToArray(sp);
+            return toSend;
+        }
+
         toggleLED(z);
+        //end of loop
     }
     //get_TI_ID(txBuffer, rxBuffer, i2cTransaction, i2c);
 

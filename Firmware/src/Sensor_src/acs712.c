@@ -8,6 +8,7 @@
 
 #include "acs712.h"
 
+
 ADC_Handle a_init(void) {
     ADC_Handle adc;
     ADC_Params ad_params;
