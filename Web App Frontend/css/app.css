@@ -120,6 +120,17 @@ body {
     border: 1px black solid;
 }
 
+/*
+#weather-chart {
+    background-image: url("http://www.mathgoodies.com/lessons/graphs/images/line_example1.jpg");
+    height: 120px;
+    width: 140px;
+    background-size: cover;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    border: 1px black solid;
+}*/
+
 #blank-space {
     height: 20px;
 }
