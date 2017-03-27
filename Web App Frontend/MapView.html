@@ -18,8 +18,8 @@
 
     <!-- Button styling specific to pages -->
     <style>
-        #list-selector { background-color: black; }
-        #list-selector a { color: white; }
+        #map-selector { background-color: black; }
+        #map-selector a { color: white; }
     </style>
         
 </head>
@@ -57,6 +57,22 @@
                 
                 {{(lamps| filter:searchText).length}} lights found
             </p>
+            
+            <div id="big-map">
+                <script>
+                    function initMap() {
+                        var uluru = {lat: -25.363, lng: 131.044};
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 4,
+                            center: uluru
+                        });
+                        var marker = new google.maps.Marker({
+                            position: uluru,
+                            map: map
+                        });
+                    }
+                </script>
+            </div>
 
         </section>
 
@@ -76,9 +92,10 @@
     <!-- Main js file -->
     <script type="text/javascript" src="js/app.js"></script>
     
-    <!-- D3 Data Modeling -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.1/d3.min.js"></script>
-    <script src="js/dataModel.js"></script>
+    <!-- Google Maps -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDS__8qtf8Q78tlTHgHVDBzatwjifrf1vQ&callback=initMap">
+    </script>
         
 </body>
     
