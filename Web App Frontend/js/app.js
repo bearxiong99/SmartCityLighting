@@ -1,4 +1,3 @@
-
 var app = angular.module('LightsApp', []).controller('MainController', function($scope) {
     $scope.lamps = [
     {
@@ -65,6 +64,7 @@ var app = angular.module('LightsApp', []).controller('MainController', function(
         address : '2210 Pearl Street',
         lampStatus : 'Operational',
         lampStatusImage: '../images/blank.png',
+        requests: [],
         weather: 
         {
             temperature : 73,
@@ -88,6 +88,27 @@ var app = angular.module('LightsApp', []).controller('MainController', function(
         address : '2222 Pearl Street',
         lampStatus : 'Needs maintenance',
         lampStatusImage: '../images/warning.png',
+        requests: 
+        [
+            {
+                description: 'Bulb outage',
+                dateTime: '2016-10-09T02:15:00',
+                completed: 'NO',
+                status: 'danger'
+            },
+            {
+                description: 'Faulty sensor',
+                dateTime: '2016-10-04T17:32:00',
+                completed: 'YES',
+                status: 'success'
+            },
+            {
+                description: 'Faulty sensor',
+                dateTime: '2016-08-15T20:40:00',
+                completed: 'YES',
+                status: 'success'
+            }
+        ],
         weather: 
         {
             temperature : 74,
@@ -111,6 +132,21 @@ var app = angular.module('LightsApp', []).controller('MainController', function(
         address : '4819 Forest Lane',
         lampStatus : 'Operational',
         lampStatusImage: '../images/blank.png',
+                requests: 
+        [
+            {
+                description: 'Bulb outage',
+                dateTime: '2016-10-09T02:15:00',
+                completed: 'NO',
+                status: 'danger'
+            },
+            {
+                description: 'Faulty sensor',
+                dateTime: '2016-10-04T17:32:00',
+                completed: 'YES',
+                status: 'success'
+            }
+        ],
         weather: 
         {
             temperature : 100,
