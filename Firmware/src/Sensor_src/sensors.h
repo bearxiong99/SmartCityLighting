@@ -25,7 +25,7 @@ uint8_t* structToArray(SensorDataStruct* s);
 SensorDataStruct* packageData(int temp, int humidity, int light, int amps, int motions);
 void init_sensors(void);
 uint8_t* getMeasurements(void);
-
+void config_sensors(void);
 
 
 

@@ -8,12 +8,11 @@
 
 #include "acs712.h"
 
-
 ADC_Handle a_init(void) {
     ADC_Handle adc;
     ADC_Params ad_params;
     ADC_Params_init(&ad_params);
-    adc = ADC_open(Board_ADC0, &ad_params);
+    adc = ADC_open(CC1310_LAUNCHXL_ADC0, &ad_params);
     return adc;
 }
 

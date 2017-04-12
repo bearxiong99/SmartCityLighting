@@ -140,21 +140,29 @@ static void rfEasyLinkTxFnx(UArg arg0, UArg arg1)
 
     /* Set output power to 12dBm */
     EasyLink_setRfPwr(12);
-
+    int z = 0;
+    config_sensors();
+    //uint8_t addr[8] = {0xF0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+    //EasyLink_setCtrl(EasyLink_Ctrl_AddSize, 8);
+    //EasyLink_enableRxAddrFilter(&addr[0], 8, 1);
     while(1) {
         EasyLink_TxPacket txPacket =  { {0}, 0, 0, {0} };
-
+        int q;
+//        for (q = 0; q < 8; q++) {
+//            txPacket.dstAddr[q] = addr[q];
+//        }
         /* Create packet with incrementing sequence number and random payload */
         txPacket.payload[0] = (uint8_t)(seqNumber >> 8);
         txPacket.payload[1] = (uint8_t)(seqNumber++);
         uint8_t i;
         uint8_t* dataPacket = getMeasurements();
-
+        toggleLED(z);
+        z += 1;
         for (i = 2; i < RFEASYLINKTXPAYLOAD_LENGTH; i++)
         {
           txPacket.payload[i] = dataPacket[i-2];
         }
-
+        free(dataPacket);
         txPacket.len = RFEASYLINKTXPAYLOAD_LENGTH;
         txPacket.dstAddr[0] = 0xaa;
 
@@ -240,6 +248,7 @@ int main(void)
     GPIO_init();
     I2C_init();
     ADC_init();
+    LampInit();
     init_sensors();
     /* Start BIOS */
     BIOS_start();
