@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+build-1175636945:
+	@$(MAKE) --no-print-directory -Onone -f src/ti/source/ti/mw/lcd/package/subdir_rules.mk build-1175636945-inproc
+
+build-1175636945-inproc: ../src/ti/source/ti/mw/lcd/package/build.cfg
+	@echo 'Building file: $<'
+	@echo 'Invoking: XDCtools'
+	"/Applications/ti/xdctools_3_32_01_22_core/xs" --xdcpath="/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source;/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/kernel/tirtos/packages;/Users/Chris/ti/tirex-content/tirtos_cc13xx_cc26xx_2_21_00_06/packages;/Users/Chris/ti/tirex-content/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages;/Users/Chris/ti/tirex-content/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_01_37/packages;/Users/Chris/ti/tirex-content/tirtos_cc13xx_cc26xx_2_21_00_06/products/uia_2_01_00_01/packages;/Applications/ti/ccsv7/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.arm.elf.M3 -r debug -c "/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+configPkg/linker.cmd: build-1175636945
+configPkg/compiler.opt: build-1175636945
+configPkg/: build-1175636945
+
+src/ti/source/ti/mw/lcd/package/package_ti.mw.lcd.obj: ../src/ti/source/ti/mw/lcd/package/package_ti.mw.lcd.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/mw/lcd/package/package_ti.mw.lcd.d" --obj_directory="src/ti/source/ti/mw/lcd/package" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

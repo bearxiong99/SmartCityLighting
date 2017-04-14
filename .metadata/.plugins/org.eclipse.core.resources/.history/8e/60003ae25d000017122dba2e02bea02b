@@ -1,0 +1,76 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/board.obj: ../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/board.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/board.d" --obj_directory="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/cc2650em_board.obj: ../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/cc2650em_board.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/cc2650em_board.d" --obj_directory="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/flashcca.obj: ../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/flashcca.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/flashcca.d" --obj_directory="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_aes.obj: ../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_aes.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_aes.d" --obj_directory="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_assert.obj: ../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_assert.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_assert.d" --obj_directory="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_ccm.obj: ../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_ccm.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_ccm.d" --obj_directory="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_flash_wrapper.obj: ../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_flash_wrapper.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_flash_wrapper.d" --obj_directory="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_rtc_wrapper.obj: ../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_rtc_wrapper.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_rtc_wrapper.d" --obj_directory="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_trng_wrapper.obj: ../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_trng_wrapper.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_trng_wrapper.d" --obj_directory="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/system_init.obj: ../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/system_init.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/system_init.d" --obj_directory="src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

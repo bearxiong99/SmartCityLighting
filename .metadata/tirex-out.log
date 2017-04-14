@@ -1,0 +1,137 @@
+-----TI-REX started at Mon Mar 06 2017 12:23:17 GMT-0600 (CST)
+Mon, 06 Mar 2017 18:23:18 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/connect/lib/middleware/bodyParser.js:56:20
+Mon, 06 Mar 2017 18:23:18 GMT connect deprecated limit: Restrict request size at location of read at node_modules/connect/lib/middleware/multipart.js:86:15
+Mon, 06 Mar 2017 18:23:18 GMT connect deprecated methodOverride: use method-override npm module instead at app.js:555:21
+dir: /Users/Chris/ti/tirex-content"
+]
+2017-03-06T18:23:18.093Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/lib/vars.js:165:12:Function.Vars.createDirs() [
+    "db dir: /Users/Chris/ti/tirex-localserver-3.0.0/.db"
+]
+2017-03-06T18:23:18.093Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/lib/vars.js:170:12:Function.Vars.createDirs() [
+    "db logs dir: /Users/Chris/ti/tirex-localserver-3.0.0/.db/logs"
+]
+2017-03-06T18:23:18.093Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/lib/vars.js:175:12:Function.Vars.createDirs() [
+    "sitemap dir: /Users/Chris/ti/tirex-localserver-3.0.0/.db/sitemap"
+]
+2017-03-06T18:23:18.094Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/lib/vars.js:180:12:Function.Vars.createDirs() [
+    "downloads dir: /Users/Chris/ti/tirex-localserver-3.0.0/.downloads"
+]
+2017-03-06T18:23:18.094Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/lib/vars.js:185:12:Function.Vars.createDirs() [
+    "user config dir: /Users/Chris/ti/tirex-localserver-3.0.0"
+]
+2017-03-06T18:23:18.111Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/rexdb/lib/rexdb-split.js:49:12:RexDBSplit.use() [
+    "DB: use() called with[\"c2000ware_software_package__1.00.00.00\",\"com.ti.SIMPLELINK_CC13X0_SDK__1.00.00.13\",\"com.ti.SIMPLELINK_CC2640R2_SDK__1.00.00.22\",\"com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.00.00.84\",\"cc3200sdk__1.1.0.0\",\"sitara__1.02.00.00\",\"com.ti.SIMPLELINK_MSP432_SDK__1.20.00.45\",\"tirtos_simplelink__2.13.01.09\",\"cc26xx_sdk__2.01.00.44423\",\"tm4c__2.1.3.156\",\"tirtos_tivac__2.16.00.08\",\"tirtos_cc32xx__2.16.00.08\",\"tirtos_msp43x__2.20.00.06\",\"tirtos_cc13xx_cc26xx__2.21.00.06\",\"xdctools__3.32.00.06\",\"msp430ware__3.60.00.10\"]"
+]
+2017-03-06T18:23:18.112Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/rexdb/lib/rexdb-split.js:78:28:() [
+    "DB: Loading com.ti.SIMPLELINK_CC13X0_SDK__1.00.00.13"
+]
+2017-03-06T18:23:18.195Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/rexdb/lib/rexdb-split.js:78:28:() [
+    "DB: Loading tirtos_cc13xx_cc26xx__2.21.00.06"
+]
+2017-03-06T18:23:18.200Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/rexdb/lib/rexdb-split.js:83:16:() [
+    "DB: status {\"com.ti.SIMPLELINK_CC13X0_SDK__1.00.00.13\":\"LOADED\",\"tirtos_cc13xx_cc26xx__2.21.00.06\":\"LOADED\"}"
+]
+2017-03-06T18:23:18.259Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/lib/localserver.js:50:12:logInfo() [
+    "localserver",
+    "Starting up local server ..."
+]
+2017-03-06T18:23:18.263Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/lib/localserver.js:50:12:logInfo() [
+    "localserver",
+    "CCS host: http://localhost:52778/"
+]
+2017-03-06T18:23:18.274Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/lib/localserver.js:50:12:logInfo() [
+    "localserver",
+    "Connecting to remote server host: https://dev.ti.com/tirex"
+]
+2017-03-06T18:23:18.283Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/app.js:2317:16:Server.<anonymous>() [
+    "Express server listening on port 54832"
+]
+removing old log file .logs-2017-02-22.log
+removing old log file .logs-2017-02-23.log
+removing old log file .logs-2017-02-27.log
+2017-03-06T18:23:18.745Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/lib/localserver.js:50:12:logInfo() [
+    "localserver",
+    "Connected to remote server host: https://dev.ti.com/tirex"
+]
+2017-03-06T18:23:21.117Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/rexdb/lib/rexdb-split.js:49:12:RexDBSplit.use() [
+    "DB: use() called with[\"c2000ware_software_package__1.00.00.00\",\"com.ti.SIMPLELINK_CC13X0_SDK__1.00.00.13\",\"com.ti.SIMPLELINK_CC2640R2_SDK__1.00.00.22\",\"com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.00.00.84\",\"cc3200sdk__1.1.0.0\",\"sitara__1.02.00.00\",\"com.ti.SIMPLELINK_MSP432_SDK__1.20.00.45\",\"tirtos_simplelink__2.13.01.09\",\"cc26xx_sdk__2.01.00.44423\",\"tm4c__2.1.3.156\",\"tirtos_tivac__2.16.00.08\",\"tirtos_cc32xx__2.16.00.08\",\"tirtos_msp43x__2.20.00.06\",\"tirtos_cc13xx_cc26xx__2.21.00.06\",\"xdctools__3.32.00.06\",\"msp430ware__3.60.00.10\"]"
+]
+2017-03-06T18:23:21.118Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/rexdb/lib/rexdb-split.js:83:16:() [
+    "DB: status {\"com.ti.SIMPLELINK_CC13X0_SDK__1.00.00.13\":\"LOADED\",\"tirtos_cc13xx_cc26xx__2.21.00.06\":\"LOADED\"}"
+]
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+2017-03-06T18:23:22.371Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/rexdb/lib/rexdb-split.js:49:12:RexDBSplit.use() [
+    "DB: use() called with[\"c2000ware_software_package__1.00.00.00\",\"com.ti.SIMPLELINK_CC13X0_SDK__1.00.00.13\",\"com.ti.SIMPLELINK_CC2640R2_SDK__1.00.00.22\",\"com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.00.00.84\",\"cc3200sdk__1.1.0.0\",\"sitara__1.02.00.00\",\"com.ti.SIMPLELINK_MSP432_SDK__1.20.00.45\",\"tirtos_simplelink__2.13.01.09\",\"cc26xx_sdk__2.01.00.44423\",\"tm4c__2.1.3.156\",\"tirtos_tivac__2.16.00.08\",\"tirtos_cc32xx__2.16.00.08\",\"tirtos_msp43x__2.20.00.06\",\"tirtos_cc13xx_cc26xx__2.21.00.06\",\"xdctools__3.32.00.06\",\"msp430ware__3.60.00.10\"]"
+]
+2017-03-06T18:23:22.372Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/rexdb/lib/rexdb-split.js:83:16:() [
+    "DB: status {\"com.ti.SIMPLELINK_CC13X0_SDK__1.00.00.13\":\"LOADED\",\"tirtos_cc13xx_cc26xx__2.21.00.06\":\"LOADED\"}"
+]
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+2017-03-06T18:29:31.976Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/rexdb/lib/rexdb-split.js:49:12:RexDBSplit.use() [
+    "DB: use() called with[\"c2000ware_software_package__1.00.00.00\",\"com.ti.SIMPLELINK_CC13X0_SDK__1.00.00.13\",\"com.ti.SIMPLELINK_CC2640R2_SDK__1.00.00.22\",\"com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.00.00.84\",\"cc3200sdk__1.1.0.0\",\"sitara__1.02.00.00\",\"com.ti.SIMPLELINK_MSP432_SDK__1.20.00.45\",\"tirtos_simplelink__2.13.01.09\",\"cc26xx_sdk__2.01.00.44423\",\"tm4c__2.1.3.156\",\"tirtos_tivac__2.16.00.08\",\"tirtos_cc32xx__2.16.00.08\",\"tirtos_msp43x__2.20.00.06\",\"tirtos_cc13xx_cc26xx__2.21.00.06\",\"xdctools__3.32.00.06\",\"msp430ware__3.60.00.10\"]"
+]
+2017-03-06T18:29:31.979Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/rexdb/lib/rexdb-split.js:83:16:() [
+    "DB: status {\"com.ti.SIMPLELINK_CC13X0_SDK__1.00.00.13\":\"LOADED\",\"tirtos_cc13xx_cc26xx__2.21.00.06\":\"LOADED\"}"
+]
+User configuration saved successfully.
+User configuration saved successfully.
+2017-03-06T18:30:05.466Z ERROR DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/app.js:1523:28:Request._callback() [
+    "null"
+]
+User configuration saved successfully.
+2017-03-06T18:30:35.100Z ERROR DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/app.js:1523:28:Request._callback() [
+    "null"
+]
+User configuration saved successfully.
+2017-03-06T18:32:49.155Z ERROR DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/app.js:1523:28:Request._callback() [
+    "null"
+]
+User configuration saved successfully.
+2017-03-06T18:33:27.247Z ERROR DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/app.js:1523:28:Request._callback() [
+    "null"
+]
+User configuration saved successfully.
+2017-03-06T18:33:34.171Z ERROR DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/app.js:1523:28:Request._callback() [
+    "null"
+]
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+User configuration saved successfully.
+About to exit with code:  1
+2017-03-06T18:35:31.421Z INFO DAEMON tirex /Applications/ti/ccsv7/tirex/ti-rex-core/app.js:170:16:process.<anonymous>() [
+    "About to exit with code: 1"
+]

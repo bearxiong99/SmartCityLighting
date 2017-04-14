@@ -1,0 +1,37 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../src/ti/source/ti/boards/CC2650DK_5XD/CC2650DK_5XD_TIRTOS.cmd 
+
+LDS_SRCS += \
+../src/ti/source/ti/boards/CC2650DK_5XD/CC2650DK_5XD.lds \
+../src/ti/source/ti/boards/CC2650DK_5XD/CC2650DK_5XD_TIRTOS.lds 
+
+C_SRCS += \
+../src/ti/source/ti/boards/CC2650DK_5XD/CC2650DK_5XD.c \
+../src/ti/source/ti/boards/CC2650DK_5XD/ccfg.c 
+
+C_DEPS += \
+./src/ti/source/ti/boards/CC2650DK_5XD/CC2650DK_5XD.d \
+./src/ti/source/ti/boards/CC2650DK_5XD/ccfg.d 
+
+OBJS += \
+./src/ti/source/ti/boards/CC2650DK_5XD/CC2650DK_5XD.obj \
+./src/ti/source/ti/boards/CC2650DK_5XD/ccfg.obj 
+
+OBJS__QUOTED += \
+"src/ti/source/ti/boards/CC2650DK_5XD/CC2650DK_5XD.obj" \
+"src/ti/source/ti/boards/CC2650DK_5XD/ccfg.obj" 
+
+C_DEPS__QUOTED += \
+"src/ti/source/ti/boards/CC2650DK_5XD/CC2650DK_5XD.d" \
+"src/ti/source/ti/boards/CC2650DK_5XD/ccfg.d" 
+
+C_SRCS__QUOTED += \
+"../src/ti/source/ti/boards/CC2650DK_5XD/CC2650DK_5XD.c" \
+"../src/ti/source/ti/boards/CC2650DK_5XD/ccfg.c" 
+
+

@@ -1,0 +1,12 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../src/ti/source/ti/devices/cc26x0/linker_files/cc26x0f128.cmd 
+
+LDS_SRCS += \
+../src/ti/source/ti/devices/cc26x0/linker_files/cc26x0f128.lds 
+
+

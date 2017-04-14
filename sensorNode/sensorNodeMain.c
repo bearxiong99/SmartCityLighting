@@ -68,6 +68,7 @@ int main(void)
     /* Call driver init functions */
     Board_initGeneral();
 
+    GPIO_init();
     initMesh();
 
     /* Start BIOS */

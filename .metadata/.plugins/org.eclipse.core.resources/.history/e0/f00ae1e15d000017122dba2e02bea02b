@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+build-1549076719:
+	@$(MAKE) --no-print-directory -Onone -f src/ti/source/third_party/fatfs/package/subdir_rules.mk build-1549076719-inproc
+
+build-1549076719-inproc: ../src/ti/source/third_party/fatfs/package/build.cfg
+	@echo 'Building file: $<'
+	@echo 'Invoking: XDCtools'
+	"/Applications/ti/xdctools_3_32_01_22_core/xs" --xdcpath="/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source;/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/kernel/tirtos/packages;/Users/Chris/ti/tirex-content/tirtos_cc13xx_cc26xx_2_21_00_06/packages;/Users/Chris/ti/tirex-content/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages;/Users/Chris/ti/tirex-content/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_01_37/packages;/Users/Chris/ti/tirex-content/tirtos_cc13xx_cc26xx_2_21_00_06/products/uia_2_01_00_01/packages;/Applications/ti/ccsv7/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.arm.elf.M3 -r debug -c "/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+configPkg/linker.cmd: build-1549076719
+configPkg/compiler.opt: build-1549076719
+configPkg/: build-1549076719
+
+src/ti/source/third_party/fatfs/package/package_third_party.fatfs.obj: ../src/ti/source/third_party/fatfs/package/package_third_party.fatfs.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/third_party/fatfs/package/package_third_party.fatfs.d" --obj_directory="src/ti/source/third_party/fatfs/package" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

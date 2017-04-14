@@ -1,14 +1,34 @@
 /*
  * sensors.h
  *
- *  Created on: Apr 10, 2017
- *      Author: Chris
+ *  Created on: Mar 5, 2017
+ *      Author: curew
  */
 
 #ifndef SENSORS_H_
 #define SENSORS_H_
 
-// Fills sensorStruct with necessary sensor data
+#include <ti/drivers/GPIO.h>
+#include <Board.h>
+#include <ti/drivers/I2C.h>
+#include <stdint.h>
+#include <ti/drivers/PIN.h>
+//#include <unistd.h>
+#include "LED.h"
+#include "opt3001.h"
+#include "packets.h"
+#include <stdlib.h>
+#include "acs712.h"
+#include "HDC1010.h"
+
+uint8_t* structToArray(SensorDataStruct* s);
+void packageData(int temp, int humidity, int light, int amps, int motions, SensorDataStruct *sensorStruct);
+void init_sensors(void);
 void getSensorData(SensorDataStruct *sensorStruct);
+void start_sensors(void);
+
+
+
+
 
 #endif /* SENSORS_H_ */

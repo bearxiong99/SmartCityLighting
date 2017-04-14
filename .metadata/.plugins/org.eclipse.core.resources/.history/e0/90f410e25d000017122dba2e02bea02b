@@ -1,0 +1,33 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CFG_SRCS += \
+../src/ti/source/ti/drivers/pdm/package/build.cfg 
+
+C_SRCS += \
+../src/ti/source/ti/drivers/pdm/package/package_ti.drivers.pdm.c 
+
+GEN_MISC_DIRS += \
+./configPkg/ 
+
+C_DEPS += \
+./src/ti/source/ti/drivers/pdm/package/package_ti.drivers.pdm.d 
+
+OBJS += \
+./src/ti/source/ti/drivers/pdm/package/package_ti.drivers.pdm.obj 
+
+GEN_MISC_DIRS__QUOTED += \
+"configPkg/" 
+
+OBJS__QUOTED += \
+"src/ti/source/ti/drivers/pdm/package/package_ti.drivers.pdm.obj" 
+
+C_DEPS__QUOTED += \
+"src/ti/source/ti/drivers/pdm/package/package_ti.drivers.pdm.d" 
+
+C_SRCS__QUOTED += \
+"../src/ti/source/ti/drivers/pdm/package/package_ti.drivers.pdm.c" 
+
+

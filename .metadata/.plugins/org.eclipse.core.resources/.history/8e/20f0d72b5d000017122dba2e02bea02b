@@ -1,0 +1,42 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/ti/source/ti/ti154mac/services/src/aes/hash.c \
+../src/ti/source/ti/ti154mac/services/src/aes/zaesccm_cc2650.c \
+../src/ti/source/ti/ti154mac/services/src/aes/zaesccm_osal.c \
+../src/ti/source/ti/ti154mac/services/src/aes/zaesccm_sw.c 
+
+C_DEPS += \
+./src/ti/source/ti/ti154mac/services/src/aes/hash.d \
+./src/ti/source/ti/ti154mac/services/src/aes/zaesccm_cc2650.d \
+./src/ti/source/ti/ti154mac/services/src/aes/zaesccm_osal.d \
+./src/ti/source/ti/ti154mac/services/src/aes/zaesccm_sw.d 
+
+OBJS += \
+./src/ti/source/ti/ti154mac/services/src/aes/hash.obj \
+./src/ti/source/ti/ti154mac/services/src/aes/zaesccm_cc2650.obj \
+./src/ti/source/ti/ti154mac/services/src/aes/zaesccm_osal.obj \
+./src/ti/source/ti/ti154mac/services/src/aes/zaesccm_sw.obj 
+
+OBJS__QUOTED += \
+"src/ti/source/ti/ti154mac/services/src/aes/hash.obj" \
+"src/ti/source/ti/ti154mac/services/src/aes/zaesccm_cc2650.obj" \
+"src/ti/source/ti/ti154mac/services/src/aes/zaesccm_osal.obj" \
+"src/ti/source/ti/ti154mac/services/src/aes/zaesccm_sw.obj" 
+
+C_DEPS__QUOTED += \
+"src/ti/source/ti/ti154mac/services/src/aes/hash.d" \
+"src/ti/source/ti/ti154mac/services/src/aes/zaesccm_cc2650.d" \
+"src/ti/source/ti/ti154mac/services/src/aes/zaesccm_osal.d" \
+"src/ti/source/ti/ti154mac/services/src/aes/zaesccm_sw.d" 
+
+C_SRCS__QUOTED += \
+"../src/ti/source/ti/ti154mac/services/src/aes/hash.c" \
+"../src/ti/source/ti/ti154mac/services/src/aes/zaesccm_cc2650.c" \
+"../src/ti/source/ti/ti154mac/services/src/aes/zaesccm_osal.c" \
+"../src/ti/source/ti/ti154mac/services/src/aes/zaesccm_sw.c" 
+
+

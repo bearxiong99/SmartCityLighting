@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/ti/source/ti/ti154mac/hal/src/target/board.c 
+
+C_DEPS += \
+./src/ti/source/ti/ti154mac/hal/src/target/board.d 
+
+OBJS += \
+./src/ti/source/ti/ti154mac/hal/src/target/board.obj 
+
+OBJS__QUOTED += \
+"src/ti/source/ti/ti154mac/hal/src/target/board.obj" 
+
+C_DEPS__QUOTED += \
+"src/ti/source/ti/ti154mac/hal/src/target/board.d" 
+
+C_SRCS__QUOTED += \
+"../src/ti/source/ti/ti154mac/hal/src/target/board.c" 
+
+

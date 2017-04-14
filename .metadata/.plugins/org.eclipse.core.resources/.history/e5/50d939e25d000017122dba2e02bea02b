@@ -1,0 +1,78 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/board.c \
+../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/cc2650em_board.c \
+../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/flashcca.c \
+../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_aes.c \
+../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_assert.c \
+../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_ccm.c \
+../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_flash_wrapper.c \
+../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_rtc_wrapper.c \
+../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_trng_wrapper.c \
+../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/system_init.c 
+
+C_DEPS += \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/board.d \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/cc2650em_board.d \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/flashcca.d \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_aes.d \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_assert.d \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_ccm.d \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_flash_wrapper.d \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_rtc_wrapper.d \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_trng_wrapper.d \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/system_init.d 
+
+OBJS += \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/board.obj \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/cc2650em_board.obj \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/flashcca.obj \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_aes.obj \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_assert.obj \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_ccm.obj \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_flash_wrapper.obj \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_rtc_wrapper.obj \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_trng_wrapper.obj \
+./src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/system_init.obj 
+
+OBJS__QUOTED += \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/board.obj" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/cc2650em_board.obj" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/flashcca.obj" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_aes.obj" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_assert.obj" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_ccm.obj" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_flash_wrapper.obj" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_rtc_wrapper.obj" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_trng_wrapper.obj" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/system_init.obj" 
+
+C_DEPS__QUOTED += \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/board.d" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/cc2650em_board.d" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/flashcca.d" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_aes.d" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_assert.d" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_ccm.d" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_flash_wrapper.d" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_rtc_wrapper.d" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_trng_wrapper.d" \
+"src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/system_init.d" 
+
+C_SRCS__QUOTED += \
+"../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/board.c" \
+"../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/cc2650em_board.c" \
+"../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/flashcca.c" \
+"../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_aes.c" \
+"../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_assert.c" \
+"../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_ccm.c" \
+"../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_flash_wrapper.c" \
+"../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_rtc_wrapper.c" \
+"../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/hal_trng_wrapper.c" \
+"../src/ti/source/ti/ti154mac/hal/src/target/cc2650tirtos/system_init.c" 
+
+

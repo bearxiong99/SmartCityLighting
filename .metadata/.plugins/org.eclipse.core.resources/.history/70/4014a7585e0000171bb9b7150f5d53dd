@@ -1,0 +1,36 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/ti/source/ti/mw/lcd/LCDDogm1286.c \
+../src/ti/source/ti/mw/lcd/LCDDogm1286_util.c \
+../src/ti/source/ti/mw/lcd/SharpGrLib.c 
+
+C_DEPS += \
+./src/ti/source/ti/mw/lcd/LCDDogm1286.d \
+./src/ti/source/ti/mw/lcd/LCDDogm1286_util.d \
+./src/ti/source/ti/mw/lcd/SharpGrLib.d 
+
+OBJS += \
+./src/ti/source/ti/mw/lcd/LCDDogm1286.obj \
+./src/ti/source/ti/mw/lcd/LCDDogm1286_util.obj \
+./src/ti/source/ti/mw/lcd/SharpGrLib.obj 
+
+OBJS__QUOTED += \
+"src/ti/source/ti/mw/lcd/LCDDogm1286.obj" \
+"src/ti/source/ti/mw/lcd/LCDDogm1286_util.obj" \
+"src/ti/source/ti/mw/lcd/SharpGrLib.obj" 
+
+C_DEPS__QUOTED += \
+"src/ti/source/ti/mw/lcd/LCDDogm1286.d" \
+"src/ti/source/ti/mw/lcd/LCDDogm1286_util.d" \
+"src/ti/source/ti/mw/lcd/SharpGrLib.d" 
+
+C_SRCS__QUOTED += \
+"../src/ti/source/ti/mw/lcd/LCDDogm1286.c" \
+"../src/ti/source/ti/mw/lcd/LCDDogm1286_util.c" \
+"../src/ti/source/ti/mw/lcd/SharpGrLib.c" 
+
+

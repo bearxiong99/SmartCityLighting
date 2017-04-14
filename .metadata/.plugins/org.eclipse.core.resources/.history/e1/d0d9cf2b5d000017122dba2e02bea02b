@@ -1,0 +1,42 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/ti/source/ti/ti154mac/high_level/mac_cfg.c \
+../src/ti/source/ti/ti154mac/high_level/mac_pib.c \
+../src/ti/source/ti/ti154mac/high_level/mac_security_pib.c \
+../src/ti/source/ti/ti154mac/high_level/macwrapper.c 
+
+C_DEPS += \
+./src/ti/source/ti/ti154mac/high_level/mac_cfg.d \
+./src/ti/source/ti/ti154mac/high_level/mac_pib.d \
+./src/ti/source/ti/ti154mac/high_level/mac_security_pib.d \
+./src/ti/source/ti/ti154mac/high_level/macwrapper.d 
+
+OBJS += \
+./src/ti/source/ti/ti154mac/high_level/mac_cfg.obj \
+./src/ti/source/ti/ti154mac/high_level/mac_pib.obj \
+./src/ti/source/ti/ti154mac/high_level/mac_security_pib.obj \
+./src/ti/source/ti/ti154mac/high_level/macwrapper.obj 
+
+OBJS__QUOTED += \
+"src/ti/source/ti/ti154mac/high_level/mac_cfg.obj" \
+"src/ti/source/ti/ti154mac/high_level/mac_pib.obj" \
+"src/ti/source/ti/ti154mac/high_level/mac_security_pib.obj" \
+"src/ti/source/ti/ti154mac/high_level/macwrapper.obj" 
+
+C_DEPS__QUOTED += \
+"src/ti/source/ti/ti154mac/high_level/mac_cfg.d" \
+"src/ti/source/ti/ti154mac/high_level/mac_pib.d" \
+"src/ti/source/ti/ti154mac/high_level/mac_security_pib.d" \
+"src/ti/source/ti/ti154mac/high_level/macwrapper.d" 
+
+C_SRCS__QUOTED += \
+"../src/ti/source/ti/ti154mac/high_level/mac_cfg.c" \
+"../src/ti/source/ti/ti154mac/high_level/mac_pib.c" \
+"../src/ti/source/ti/ti154mac/high_level/mac_security_pib.c" \
+"../src/ti/source/ti/ti154mac/high_level/macwrapper.c" 
+
+

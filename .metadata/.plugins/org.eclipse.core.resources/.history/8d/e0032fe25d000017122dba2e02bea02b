@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/ti/source/ti/mw/extflash/ExtFlash.c 
+
+C_DEPS += \
+./src/ti/source/ti/mw/extflash/ExtFlash.d 
+
+OBJS += \
+./src/ti/source/ti/mw/extflash/ExtFlash.obj 
+
+OBJS__QUOTED += \
+"src/ti/source/ti/mw/extflash/ExtFlash.obj" 
+
+C_DEPS__QUOTED += \
+"src/ti/source/ti/mw/extflash/ExtFlash.d" 
+
+C_SRCS__QUOTED += \
+"../src/ti/source/ti/mw/extflash/ExtFlash.c" 
+
+

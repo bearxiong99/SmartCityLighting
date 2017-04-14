@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/ti/source/ti/mw/sensortag/SensorTagTest.c 
+
+C_DEPS += \
+./src/ti/source/ti/mw/sensortag/SensorTagTest.d 
+
+OBJS += \
+./src/ti/source/ti/mw/sensortag/SensorTagTest.obj 
+
+OBJS__QUOTED += \
+"src/ti/source/ti/mw/sensortag/SensorTagTest.obj" 
+
+C_DEPS__QUOTED += \
+"src/ti/source/ti/mw/sensortag/SensorTagTest.d" 
+
+C_SRCS__QUOTED += \
+"../src/ti/source/ti/mw/sensortag/SensorTagTest.c" 
+
+

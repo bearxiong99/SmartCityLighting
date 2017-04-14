@@ -1,0 +1,54 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/ti/source/ti/display/Display.c \
+../src/ti/source/ti/display/DisplayDogm1286.c \
+../src/ti/source/ti/display/DisplayExt.c \
+../src/ti/source/ti/display/DisplayHost.c \
+../src/ti/source/ti/display/DisplaySharp.c \
+../src/ti/source/ti/display/DisplayUart.c 
+
+C_DEPS += \
+./src/ti/source/ti/display/Display.d \
+./src/ti/source/ti/display/DisplayDogm1286.d \
+./src/ti/source/ti/display/DisplayExt.d \
+./src/ti/source/ti/display/DisplayHost.d \
+./src/ti/source/ti/display/DisplaySharp.d \
+./src/ti/source/ti/display/DisplayUart.d 
+
+OBJS += \
+./src/ti/source/ti/display/Display.obj \
+./src/ti/source/ti/display/DisplayDogm1286.obj \
+./src/ti/source/ti/display/DisplayExt.obj \
+./src/ti/source/ti/display/DisplayHost.obj \
+./src/ti/source/ti/display/DisplaySharp.obj \
+./src/ti/source/ti/display/DisplayUart.obj 
+
+OBJS__QUOTED += \
+"src/ti/source/ti/display/Display.obj" \
+"src/ti/source/ti/display/DisplayDogm1286.obj" \
+"src/ti/source/ti/display/DisplayExt.obj" \
+"src/ti/source/ti/display/DisplayHost.obj" \
+"src/ti/source/ti/display/DisplaySharp.obj" \
+"src/ti/source/ti/display/DisplayUart.obj" 
+
+C_DEPS__QUOTED += \
+"src/ti/source/ti/display/Display.d" \
+"src/ti/source/ti/display/DisplayDogm1286.d" \
+"src/ti/source/ti/display/DisplayExt.d" \
+"src/ti/source/ti/display/DisplayHost.d" \
+"src/ti/source/ti/display/DisplaySharp.d" \
+"src/ti/source/ti/display/DisplayUart.d" 
+
+C_SRCS__QUOTED += \
+"../src/ti/source/ti/display/Display.c" \
+"../src/ti/source/ti/display/DisplayDogm1286.c" \
+"../src/ti/source/ti/display/DisplayExt.c" \
+"../src/ti/source/ti/display/DisplayHost.c" \
+"../src/ti/source/ti/display/DisplaySharp.c" \
+"../src/ti/source/ti/display/DisplayUart.c" 
+
+

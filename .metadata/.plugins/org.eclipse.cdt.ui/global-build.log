@@ -1,0 +1,35 @@
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+/Applications/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+Building file: ../release.cfg
+Invoking: XDCtools
+"/Applications/ti/xdctools_3_32_01_22_core/xs" --xdcpath="/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source;/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/kernel/tirtos/packages;/Applications/ti/ccsv7/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.arm.elf.M3 -p ti.platforms.simplelink:CC1310F128 -r release -c "/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS" --compileOptions " -DDEVICE_FAMILY=cc13x0 " "../release.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring release.xem3 from package/cfg/release_pem3.cfg ...
+generating custom ROM library makefile ... 
+Starting build of library sources ...
+Build of libraries failed.
+subdir_rules.mk:10: recipe for target 'build-1317695535-inproc' failed
+gmake: /Users/Chris/Drive/Classes/8th_Semester/EE: No such file or directory
+gmake: *** No rule to make target `/Users/Chris/Drive/Classes/8th_Semester/EE'.  Stop.
+error: xdc.cfg.SourceDir: "/Applications/ti/xdctools_3_32_01_22_core/packages/xdc/cfg/SourceDir.xs", line 209: xdc.cfg.SourceDir : Build of generated source libraries failed: exit status = 2:
+
+js: "/Applications/ti/xdctools_3_32_01_22_core/packages/xdc/cfg/Main.xs", line 160: Error: Configuration failed!
+gmake: *** [package/cfg/release_pem3.xdl] Error 1
+gmake: *** Deleting file `package/cfg/release_pem3.xdl'
+gmake: *** [package/cfg/release_pem3.xdl] Deleting file `package/cfg/release_pem3.h'
+gmake: *** [package/cfg/release_pem3.xdl] Deleting file `package/cfg/release_pem3.c'
+js: "/Applications/ti/xdctools_3_32_01_22_core/packages/xdc/tools/Cmdr.xs", line 52: Error: xdc.tools.configuro: configuration failed due to earlier errors (status = 2); 'linker.cmd' deleted.
+gmake[2]: *** [build-1317695535-inproc] Error 1
+gmake[1]: *** [build-1317695535] Error 2
+gmake[1]: Target 'configPkg/linker.cmd' not remade because of errors.
+gmake: *** [all] Error 2
+subdir_rules.mk:7: recipe for target 'build-1317695535' failed
+makefile:125: recipe for target 'all' failed
+
+**** Build Finished ****
+Buildfile generation error occurred..
+Cannot build project. Referenced project 'tirtos_builds_CC1310_LAUNCHXL_release_ccs' contains build-errors.
+Build stopped..

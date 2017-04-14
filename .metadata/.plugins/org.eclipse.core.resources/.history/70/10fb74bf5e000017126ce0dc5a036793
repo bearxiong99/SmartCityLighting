@@ -1,0 +1,66 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/ti/source/third_party/fatfs/utils/catimagefile.c \
+../src/ti/source/third_party/fatfs/utils/cptoimage.c \
+../src/ti/source/third_party/fatfs/utils/fatfs_ram.c \
+../src/ti/source/third_party/fatfs/utils/fsutils.c \
+../src/ti/source/third_party/fatfs/utils/imagetosrc.c \
+../src/ti/source/third_party/fatfs/utils/lsimage.c \
+../src/ti/source/third_party/fatfs/utils/memgnu.c \
+../src/ti/source/third_party/fatfs/utils/mkimage.c 
+
+C_DEPS += \
+./src/ti/source/third_party/fatfs/utils/catimagefile.d \
+./src/ti/source/third_party/fatfs/utils/cptoimage.d \
+./src/ti/source/third_party/fatfs/utils/fatfs_ram.d \
+./src/ti/source/third_party/fatfs/utils/fsutils.d \
+./src/ti/source/third_party/fatfs/utils/imagetosrc.d \
+./src/ti/source/third_party/fatfs/utils/lsimage.d \
+./src/ti/source/third_party/fatfs/utils/memgnu.d \
+./src/ti/source/third_party/fatfs/utils/mkimage.d 
+
+OBJS += \
+./src/ti/source/third_party/fatfs/utils/catimagefile.obj \
+./src/ti/source/third_party/fatfs/utils/cptoimage.obj \
+./src/ti/source/third_party/fatfs/utils/fatfs_ram.obj \
+./src/ti/source/third_party/fatfs/utils/fsutils.obj \
+./src/ti/source/third_party/fatfs/utils/imagetosrc.obj \
+./src/ti/source/third_party/fatfs/utils/lsimage.obj \
+./src/ti/source/third_party/fatfs/utils/memgnu.obj \
+./src/ti/source/third_party/fatfs/utils/mkimage.obj 
+
+OBJS__QUOTED += \
+"src/ti/source/third_party/fatfs/utils/catimagefile.obj" \
+"src/ti/source/third_party/fatfs/utils/cptoimage.obj" \
+"src/ti/source/third_party/fatfs/utils/fatfs_ram.obj" \
+"src/ti/source/third_party/fatfs/utils/fsutils.obj" \
+"src/ti/source/third_party/fatfs/utils/imagetosrc.obj" \
+"src/ti/source/third_party/fatfs/utils/lsimage.obj" \
+"src/ti/source/third_party/fatfs/utils/memgnu.obj" \
+"src/ti/source/third_party/fatfs/utils/mkimage.obj" 
+
+C_DEPS__QUOTED += \
+"src/ti/source/third_party/fatfs/utils/catimagefile.d" \
+"src/ti/source/third_party/fatfs/utils/cptoimage.d" \
+"src/ti/source/third_party/fatfs/utils/fatfs_ram.d" \
+"src/ti/source/third_party/fatfs/utils/fsutils.d" \
+"src/ti/source/third_party/fatfs/utils/imagetosrc.d" \
+"src/ti/source/third_party/fatfs/utils/lsimage.d" \
+"src/ti/source/third_party/fatfs/utils/memgnu.d" \
+"src/ti/source/third_party/fatfs/utils/mkimage.d" 
+
+C_SRCS__QUOTED += \
+"../src/ti/source/third_party/fatfs/utils/catimagefile.c" \
+"../src/ti/source/third_party/fatfs/utils/cptoimage.c" \
+"../src/ti/source/third_party/fatfs/utils/fatfs_ram.c" \
+"../src/ti/source/third_party/fatfs/utils/fsutils.c" \
+"../src/ti/source/third_party/fatfs/utils/imagetosrc.c" \
+"../src/ti/source/third_party/fatfs/utils/lsimage.c" \
+"../src/ti/source/third_party/fatfs/utils/memgnu.c" \
+"../src/ti/source/third_party/fatfs/utils/mkimage.c" 
+
+

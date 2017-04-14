@@ -1,0 +1,1586 @@
+
+**** Build of configuration Debug for project SCLS_Slave_Node ****
+
+/Applications/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+Building file: ../src/Sensor_src/LED.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Sensor_src/LED.d" --obj_directory="src/Sensor_src" --cmd_file="configPkg/compiler.opt" "../src/Sensor_src/LED.c"
+
+>> Compilation failure
+src/Sensor_src/subdir_rules.mk:7: recipe for target 'src/Sensor_src/LED.obj' failed
+"../src/Sensor_src/LED.c", line 7: fatal error #1965: cannot open source file "LED.h"
+1 catastrophic error detected in the compilation of "../src/Sensor_src/LED.c".
+Compilation terminated.
+gmake: *** [src/Sensor_src/LED.obj] Error 1
+"../src/ti/source/third_party/fatfs/diskio.c", line 39: fatal error #1965: cannot open source file "ffconf.h"
+1 catastrophic error detected in the compilation of "../src/ti/source/third_party/fatfs/diskio.c".
+Compilation terminated.
+gmake: *** [src/ti/source/third_party/fatfs/diskio.obj] Error 1
+"../src/ti/source/third_party/fatfs/ffcio.c", line 41: fatal error #1965: cannot open source file "ff.h"
+1 catastrophic error detected in the compilation of "../src/ti/source/third_party/fatfs/ffcio.c".
+Compilation terminated.
+gmake: *** [src/ti/source/third_party/fatfs/ffcio.obj] Error 1
+Building file: ../src/ti/source/third_party/fatfs/diskio.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/third_party/fatfs/diskio.d" --obj_directory="src/ti/source/third_party/fatfs" --cmd_file="configPkg/compiler.opt" "../src/ti/source/third_party/fatfs/diskio.c"
+
+>> Compilation failure
+src/ti/source/third_party/fatfs/subdir_rules.mk:7: recipe for target 'src/ti/source/third_party/fatfs/diskio.obj' failed
+Building file: ../src/ti/source/third_party/fatfs/ffcio.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/third_party/fatfs/ffcio.d" --obj_directory="src/ti/source/third_party/fatfs" --cmd_file="configPkg/compiler.opt" "../src/ti/source/third_party/fatfs/ffcio.c"
+
+>> Compilation failure
+src/ti/source/third_party/fatfs/subdir_rules.mk:21: recipe for target 'src/ti/source/third_party/fatfs/ffcio.obj' failed
+Building file: ../src/ti/source/third_party/fatfs/ramdisk.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/third_party/fatfs/ramdisk.d" --obj_directory="src/ti/source/third_party/fatfs" --cmd_file="configPkg/compiler.opt" "../src/ti/source/third_party/fatfs/ramdisk.c"
+
+>> Compilation failure
+src/ti/source/third_party/fatfs/subdir_rules.mk:35: recipe for target 'src/ti/source/third_party/fatfs/ramdisk.obj' failed
+"../src/ti/source/third_party/fatfs/ramdisk.c", line 40: fatal error #1965: cannot open source file "ffconf.h"
+1 catastrophic error detected in the compilation of "../src/ti/source/third_party/fatfs/ramdisk.c".
+Compilation terminated.
+gmake: *** [src/ti/source/third_party/fatfs/ramdisk.obj] Error 1
+"../src/ti/source/third_party/fatfs/utils/catimagefile.c", line 52: fatal error #1965: cannot open source file "sys/types.h"
+1 catastrophic error detected in the compilation of "../src/ti/source/third_party/fatfs/utils/catimagefile.c".
+Compilation terminated.
+gmake: *** [src/ti/source/third_party/fatfs/utils/catimagefile.obj] Error 1
+"../src/ti/source/third_party/fatfs/utils/cptoimage.c", line 56: fatal error #1965: cannot open source file "sys/stat.h"
+1 catastrophic error detected in the compilation of "../src/ti/source/third_party/fatfs/utils/cptoimage.c".
+Compilation terminated.
+gmake: *** [src/ti/source/third_party/fatfs/utils/cptoimage.obj] Error 1
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include/s_c_features.h", line 439: warning #48-D: incompatible redefinition of macro "_STLP_VENDOR_CSTD" (declared at line 112 of "/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include/s_c__ti.h")
+"../src/Sensor_src/main_tirtos.c", line 49: fatal error #1965: cannot open source file "Board.h"
+1 catastrophic error detected in the compilation of "../src/Sensor_src/main_tirtos.c".
+Compilation terminated.
+gmake: *** [src/Sensor_src/main_tirtos.obj] Error 1
+"../src/Sensor_src/sensor_light2.c", line 13: fatal error #1965: cannot open source file "Board.h"
+1 catastrophic error detected in the compilation of "../src/Sensor_src/sensor_light2.c".
+Compilation terminated.
+gmake: *** [src/Sensor_src/sensor_light2.obj] Error 1
+"../src/Sensor_src/opt3001.h", line 12: fatal error #1965: cannot open source file "Board.h"
+1 catastrophic error detected in the compilation of "../src/Sensor_src/opt3001.c".
+Compilation terminated.
+gmake: *** [src/Sensor_src/opt3001.obj] Error 1
+"../src/Sensor_src/acs712.h", line 13: fatal error #1965: cannot open source file "Board.h"
+1 catastrophic error detected in the compilation of "../src/Sensor_src/acs712.c".
+Compilation terminated.
+gmake: *** [src/Sensor_src/acs712.obj] Error 1
+"../src/ti/source/third_party/fatfs/utils/fsutils.c", line 43: fatal error #1965: cannot open source file "sys/types.h"
+1 catastrophic error detected in the compilation of "../src/ti/source/third_party/fatfs/utils/fsutils.c".
+Compilation terminated.
+gmake: *** [src/ti/source/third_party/fatfs/utils/fsutils.obj] Error 1
+"../src/ti/source/third_party/fatfs/utils/fatfs_ram.c", line 42: fatal error #1965: cannot open source file "diskio.h"
+1 catastrophic error detected in the compilation of "../src/ti/source/third_party/fatfs/utils/fatfs_ram.c".
+Compilation terminated.
+gmake: *** [src/ti/source/third_party/fatfs/utils/fatfs_ram.obj] Error 1
+"../src/ti/source/third_party/fatfs/utils/imagetosrc.c", line 57: fatal error #1965: cannot open source file "sys/types.h"
+1 catastrophic error detected in the compilation of "../src/ti/source/third_party/fatfs/utils/imagetosrc.c".
+Compilation terminated.
+gmake: *** [src/ti/source/third_party/fatfs/utils/imagetosrc.obj] Error 1
+"../src/ti/source/third_party/fatfs/utils/lsimage.c", line 49: fatal error #1965: cannot open source file "sys/types.h"
+1 catastrophic error detected in the compilation of "../src/ti/source/third_party/fatfs/utils/lsimage.c".
+Compilation terminated.
+gmake: *** [src/ti/source/third_party/fatfs/utils/lsimage.obj] Error 1
+"../src/ti/source/third_party/fatfs/utils/mkimage.c", line 56: fatal error #1965: cannot open source file "sys/types.h"
+1 catastrophic error detected in the compilation of "../src/ti/source/third_party/fatfs/utils/mkimage.c".
+Compilation terminated.
+gmake: *** [src/ti/source/third_party/fatfs/utils/mkimage.obj] Error 1
+"../src/ti/source/ti/boards/CC1310_LAUNCHXL/ccfg.c", line 55: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/boards/CC1310_LAUNCHXL/ccfg.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/boards/CC1310_LAUNCHXL/ccfg.obj] Error 1
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_gcc.c", line 46: fatal error #35: #error directive: "startup_gcc.c: Unsupported compiler!"
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/devices/cc13x0/startup_files/startup_gcc.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/devices/cc13x0/startup_files/startup_gcc.obj] Error 1
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_iar.c", line 47: fatal error #35: #error directive: "startup_iar.c: Unsupported compiler!"
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/devices/cc13x0/startup_files/startup_iar.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/devices/cc13x0/startup_files/startup_iar.obj] Error 1
+Building file: ../src/ti/source/third_party/fatfs/utils/catimagefile.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/third_party/fatfs/utils/catimagefile.d" --obj_directory="src/ti/source/third_party/fatfs/utils" --cmd_file="configPkg/compiler.opt" "../src/ti/source/third_party/fatfs/utils/catimagefile.c"
+
+>> Compilation failure
+src/ti/source/third_party/fatfs/utils/subdir_rules.mk:7: recipe for target 'src/ti/source/third_party/fatfs/utils/catimagefile.obj' failed
+Building file: ../src/ti/source/third_party/fatfs/utils/cptoimage.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/third_party/fatfs/utils/cptoimage.d" --obj_directory="src/ti/source/third_party/fatfs/utils" --cmd_file="configPkg/compiler.opt" "../src/ti/source/third_party/fatfs/utils/cptoimage.c"
+
+>> Compilation failure
+src/ti/source/third_party/fatfs/utils/subdir_rules.mk:14: recipe for target 'src/ti/source/third_party/fatfs/utils/cptoimage.obj' failed
+Building file: ../src/Sensor_src/main_tirtos.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Sensor_src/main_tirtos.d" --obj_directory="src/Sensor_src" --cmd_file="configPkg/compiler.opt" "../src/Sensor_src/main_tirtos.c"
+
+>> Compilation failure
+src/Sensor_src/subdir_rules.mk:21: recipe for target 'src/Sensor_src/main_tirtos.obj' failed
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 41: [E0003] Only labels and comments may begin in the first column. Make sure that the label name is not a reserved keyword.
+	#include "../driverlib/setup.h"
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 41: [E0002] Illegal mnemonic specified
+	#include "../driverlib/setup.h"
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 46: [E0002] Illegal mnemonic specified
+	Stack_Size      EQU     0x00000200
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 48: [E0002] Illegal mnemonic specified
+	                AREA    STACK, NOINIT, READWRITE, ALIGN=3
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 49: [E0002] Illegal mnemonic specified
+	Stack_Mem       SPACE   Stack_Size
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 56: [E0002] Illegal mnemonic specified
+	Heap_Size       EQU     0x00000000
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 58: [E0002] Illegal mnemonic specified
+	                AREA    HEAP, NOINIT, READWRITE, ALIGN=3
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 60: [E0002] Illegal mnemonic specified
+	Heap_Mem        SPACE   Heap_Size
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 64: [E0002] Illegal mnemonic specified
+	                PRESERVE8
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 65: [E0002] Illegal mnemonic specified
+	                THUMB
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 70: [E0002] Illegal mnemonic specified
+	                AREA    RESET, DATA, READONLY
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 71: [E0002] Illegal mnemonic specified
+	                EXPORT  __Vectors
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 72: [E0002] Illegal mnemonic specified
+	                EXPORT  __Vectors_End
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 73: [E0002] Illegal mnemonic specified
+	                EXPORT  __Vectors_Size
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 75: [E0002] Illegal mnemonic specified
+	__Vectors       DCD     __initial_sp              ;  0 Top of Stack
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 76: [E0002] Illegal mnemonic specified
+	                DCD     ResetISR                  ;  1 Reset Handler
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 77: [E0002] Illegal mnemonic specified
+	                DCD     NmiSR                     ;  2 NMI Handler
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 78: [E0002] Illegal mnemonic specified
+	                DCD     FaultISR                  ;  3 Hard Fault Handler
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 79: [E0002] Illegal mnemonic specified
+	                DCD     MPUFaultIntHandler        ;  4 The MPU fault handler
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 80: [E0002] Illegal mnemonic specified
+	                DCD     BusFaultIntHandler        ;  5 The bus fault handler
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 81: [E0002] Illegal mnemonic specified
+	                DCD     UsageFaultIntHandler      ;  6 The usage fault handler
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 82: [E0002] Illegal mnemonic specified
+	                DCD     0                         ;  7 Reserved
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 83: [E0002] Illegal mnemonic specified
+	                DCD     0                         ;  8 Reserved
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 84: [E0002] Illegal mnemonic specified
+	                DCD     0                         ;  9 Reserved
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 85: [E0002] Illegal mnemonic specified
+	                DCD     0                         ; 10 Reserved
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 86: [E0002] Illegal mnemonic specified
+	                DCD     SVCallIntHandler          ; 11 SVCall Handler
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 87: [E0002] Illegal mnemonic specified
+	                DCD     DebugMonIntHandler        ; 12 Debug monitor handler
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 88: [E0002] Illegal mnemonic specified
+	                DCD     0                         ; 13 Reserved
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 89: [E0002] Illegal mnemonic specified
+	                DCD     PendSVIntHandler          ; 14 PendSV Handler
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 90: [E0002] Illegal mnemonic specified
+	                DCD     SysTickIntHandler         ; 15 SysTick Handler
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 93: [E0002] Illegal mnemonic specified
+	                DCD     GPIOIntHandler            ; 16 AON edge detect
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 94: [E0002] Illegal mnemonic specified
+	                DCD     I2CIntHandler             ; 17 I2C
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 95: [E0002] Illegal mnemonic specified
+	                DCD     RFCCPE1IntHandler         ; 18 RF Core Command & Packet Engine 1
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 96: [E0002] Illegal mnemonic specified
+	                DCD     IntDefaultHandler         ; 19 Reserved
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 97: [E0002] Illegal mnemonic specified
+	                DCD     AONRTCIntHandler          ; 20 AON RTC
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 98: [E0002] Illegal mnemonic specified
+	                DCD     UART0IntHandler           ; 21 UART0 Rx and Tx
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 99: [E0002] Illegal mnemonic specified
+	                DCD     IntDefaultHandler         ; 22 AUX software event 0
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 100: [E0002] Illegal mnemonic specified
+	                DCD     SSI0IntHandler            ; 23 SSI0 Rx and Tx
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 101: [E0002] Illegal mnemonic specified
+	                DCD     SSI1IntHandler            ; 24 SSI1 Rx and Tx
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 102: [E0002] Illegal mnemonic specified
+	                DCD     RFCCPE0IntHandler         ; 25 RF Core Command & Packet Engine 0
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 103: [E0002] Illegal mnemonic specified
+	                DCD     RFCHardwareIntHandler     ; 26 RF Core Hardware
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 104: [E0002] Illegal mnemonic specified
+	                DCD     RFCCmdAckIntHandler       ; 27 RF Core Command Acknowledge
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 105: [E0002] Illegal mnemonic specified
+	                DCD     I2SIntHandler             ; 28 I2S
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 106: [E0002] Illegal mnemonic specified
+	                DCD     IntDefaultHandler         ; 29 AUX software event 1
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 107: [E0002] Illegal mnemonic specified
+	                DCD     WatchdogIntHandler        ; 30 Watchdog timer
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 108: [E0002] Illegal mnemonic specified
+	                DCD     Timer0AIntHandler         ; 31 Timer 0 subtimer A
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 109: [E0002] Illegal mnemonic specified
+	                DCD     Timer0BIntHandler         ; 32 Timer 0 subtimer B
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 110: [E0002] Illegal mnemonic specified
+	                DCD     Timer1AIntHandler         ; 33 Timer 1 subtimer A
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 111: [E0002] Illegal mnemonic specified
+	                DCD     Timer1BIntHandler         ; 34 Timer 1 subtimer B
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 112: [E0002] Illegal mnemonic specified
+	                DCD     Timer2AIntHandler         ; 35 Timer 2 subtimer A
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 113: [E0002] Illegal mnemonic specified
+	                DCD     Timer2BIntHandler         ; 36 Timer 2 subtimer B
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 114: [E0002] Illegal mnemonic specified
+	                DCD     Timer3AIntHandler         ; 37 Timer 3 subtimer A
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 115: [E0002] Illegal mnemonic specified
+	                DCD     Timer3BIntHandler         ; 38 Timer 3 subtimer B
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 116: [E0002] Illegal mnemonic specified
+	                DCD     CryptoIntHandler          ; 39 Crypto Core Result available
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 117: [E0002] Illegal mnemonic specified
+	                DCD     uDMAIntHandler            ; 40 uDMA Software
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 118: [E0002] Illegal mnemonic specified
+	                DCD     uDMAErrIntHandler         ; 41 uDMA Error
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 119: [E0002] Illegal mnemonic specified
+	                DCD     FlashIntHandler           ; 42 Flash controller
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 120: [E0002] Illegal mnemonic specified
+	                DCD     SWEvent0IntHandler        ; 43 Software Event 0
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 121: [E0002] Illegal mnemonic specified
+	                DCD     AUXCombEventIntHandler    ; 44 AUX combined event
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 122: [E0002] Illegal mnemonic specified
+	                DCD     AONProgIntHandler         ; 45 AON programmable 0
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 123: [E0002] Illegal mnemonic specified
+	                DCD     DynProgIntHandler         ; 46 Dynamic Programmable interrupt
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 125: [E0002] Illegal mnemonic specified
+	                DCD     AUXCompAIntHandler        ; 47 AUX Comparator A
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 126: [E0002] Illegal mnemonic specified
+	                DCD     AUXADCIntHandler          ; 48 AUX ADC new sample or ADC DMA
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 128: [E0002] Illegal mnemonic specified
+	                DCD     TRNGIntHandler            ; 49 TRNG event
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 131: [E0002] Illegal mnemonic specified
+	__Vectors_Size  EQU     __Vectors_End - __Vectors
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 133: [E0002] Illegal mnemonic specified
+	                AREA    |.text|, CODE, READONLY
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 138: [E0002] Illegal mnemonic specified
+	ResetISR        PROC
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 139: [E0002] Illegal mnemonic specified
+	                EXPORT  ResetISR                  [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 140: [E0002] Illegal mnemonic specified
+	                IMPORT  __main
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 142: [E0200] Bad term in expression
+	                LDR     R0, =SetupTrimDevice
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 142: [E0001] Illegal symbol
+	                LDR     R0, =SetupTrimDevice
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 142: [E0003] Unexpected trailing operand(s)
+	                LDR     R0, =SetupTrimDevice
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 145: [E0200] Bad term in expression
+	                LDR     R0, =__main
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 145: [E0001] Illegal symbol
+	                LDR     R0, =__main
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 145: [E0003] Unexpected trailing operand(s)
+	                LDR     R0, =__main
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 148: [E0200] Bad term in expression
+	                LDR     R0, =FaultISR
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 148: [E0001] Illegal symbol
+	                LDR     R0, =FaultISR
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 148: [E0003] Unexpected trailing operand(s)
+	                LDR     R0, =FaultISR
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 150: [E0002] Illegal mnemonic specified
+	                ENDP
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 155: [E0002] Illegal mnemonic specified
+	NmiSR           PROC
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 156: [E0002] Illegal mnemonic specified
+	                EXPORT  NmiSR                     [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 157: [E0200] Bad term in expression
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 157: [E0001] Illegal symbol
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 157: [E0003] Unexpected trailing operand(s)
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 158: [E0002] Illegal mnemonic specified
+	                ENDP
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 159: [E0002] Illegal mnemonic specified
+	FaultISR        PROC
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 160: [E0002] Illegal mnemonic specified
+	                EXPORT  FaultISR                  [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 161: [E0200] Bad term in expression
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 161: [E0001] Illegal symbol
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 161: [E0003] Unexpected trailing operand(s)
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 162: [E0002] Illegal mnemonic specified
+	                ENDP
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 163: [E0000] Unrecognized special character
+	MPUFaultIntHandler\
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 164: [E0002] Illegal mnemonic specified
+	                PROC
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 165: [E0002] Illegal mnemonic specified
+	                EXPORT  MPUFaultIntHandler        [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 166: [E0200] Bad term in expression
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 166: [E0001] Illegal symbol
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 166: [E0003] Unexpected trailing operand(s)
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 167: [E0002] Illegal mnemonic specified
+	                ENDP
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 168: [E0000] Unrecognized special character
+	BusFaultIntHandler\
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 169: [E0002] Illegal mnemonic specified
+	                PROC
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 170: [E0002] Illegal mnemonic specified
+	                EXPORT  BusFaultIntHandler        [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 171: [E0200] Bad term in expression
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 171: [E0001] Illegal symbol
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 171: [E0003] Unexpected trailing operand(s)
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 172: [E0002] Illegal mnemonic specified
+	                ENDP
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 173: [E0000] Unrecognized special character
+	UsageFaultIntHandler\
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 174: [E0002] Illegal mnemonic specified
+	                PROC
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 175: [E0002] Illegal mnemonic specified
+	                EXPORT  UsageFaultIntHandler      [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 176: [E0200] Bad term in expression
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 176: [E0001] Illegal symbol
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 176: [E0003] Unexpected trailing operand(s)
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 177: [E0002] Illegal mnemonic specified
+	                ENDP
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 178: [E0000] Unrecognized special character
+	SVCallIntHandler\
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 179: [E0002] Illegal mnemonic specified
+	                PROC
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 180: [E0002] Illegal mnemonic specified
+	                EXPORT  SVCallIntHandler          [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 181: [E0200] Bad term in expression
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 181: [E0001] Illegal symbol
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 181: [E0003] Unexpected trailing operand(s)
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 182: [E0002] Illegal mnemonic specified
+	                ENDP
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 183: [E0000] Unrecognized special character
+	DebugMonIntHandler\
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 184: [E0002] Illegal mnemonic specified
+	                PROC
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 185: [E0002] Illegal mnemonic specified
+	                EXPORT  DebugMonIntHandler        [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 186: [E0200] Bad term in expression
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 186: [E0001] Illegal symbol
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 186: [E0003] Unexpected trailing operand(s)
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 187: [E0002] Illegal mnemonic specified
+	                ENDP
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 188: [E0000] Unrecognized special character
+	PendSVIntHandler\
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 189: [E0002] Illegal mnemonic specified
+	                PROC
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 190: [E0002] Illegal mnemonic specified
+	                EXPORT  PendSVIntHandler          [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 191: [E0200] Bad term in expression
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 191: [E0001] Illegal symbol
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 191: [E0003] Unexpected trailing operand(s)
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 192: [E0002] Illegal mnemonic specified
+	                ENDP
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 193: [E0000] Unrecognized special character
+	SysTickIntHandler\
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 194: [E0002] Illegal mnemonic specified
+	                PROC
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 195: [E0002] Illegal mnemonic specified
+	                EXPORT  SysTickIntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 196: [E0200] Bad term in expression
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 196: [E0001] Illegal symbol
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 196: [E0003] Unexpected trailing operand(s)
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 197: [E0002] Illegal mnemonic specified
+	                ENDP
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 199: [E0000] Unrecognized special character
+	IntDefaultHandler\
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 200: [E0002] Illegal mnemonic specified
+	                PROC
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 201: [E0002] Illegal mnemonic specified
+	                EXPORT  GPIOIntHandler            [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 202: [E0002] Illegal mnemonic specified
+	                EXPORT  I2CIntHandler             [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 203: [E0002] Illegal mnemonic specified
+	                EXPORT  RFCCPE1IntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 204: [E0002] Illegal mnemonic specified
+	                EXPORT  AONRTCIntHandler          [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 205: [E0002] Illegal mnemonic specified
+	                EXPORT  UART0IntHandler           [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 206: [E0002] Illegal mnemonic specified
+	                EXPORT  SSI0IntHandler            [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 207: [E0002] Illegal mnemonic specified
+	                EXPORT  SSI1IntHandler            [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 208: [E0002] Illegal mnemonic specified
+	                EXPORT  RFCCPE0IntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 209: [E0002] Illegal mnemonic specified
+	                EXPORT  RFCHardwareIntHandler     [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 210: [E0002] Illegal mnemonic specified
+	                EXPORT  RFCCmdAckIntHandler       [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 211: [E0002] Illegal mnemonic specified
+	                EXPORT  I2SIntHandler             [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 212: [E0002] Illegal mnemonic specified
+	                EXPORT  WatchdogIntHandler        [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 213: [E0002] Illegal mnemonic specified
+	                EXPORT  Timer0AIntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 214: [E0002] Illegal mnemonic specified
+	                EXPORT  Timer0BIntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 215: [E0002] Illegal mnemonic specified
+	                EXPORT  Timer1AIntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 216: [E0002] Illegal mnemonic specified
+	                EXPORT  Timer1BIntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 217: [E0002] Illegal mnemonic specified
+	                EXPORT  Timer2AIntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 218: [E0002] Illegal mnemonic specified
+	                EXPORT  Timer2BIntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 219: [E0002] Illegal mnemonic specified
+	                EXPORT  Timer3AIntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 220: [E0002] Illegal mnemonic specified
+	                EXPORT  Timer3BIntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 221: [E0002] Illegal mnemonic specified
+	                EXPORT  CryptoIntHandler          [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 222: [E0002] Illegal mnemonic specified
+	                EXPORT  uDMAIntHandler            [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 223: [E0002] Illegal mnemonic specified
+	                EXPORT  uDMAErrIntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 224: [E0002] Illegal mnemonic specified
+	                EXPORT  FlashIntHandler           [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 225: [E0002] Illegal mnemonic specified
+	                EXPORT  SWEvent0IntHandler        [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 226: [E0002] Illegal mnemonic specified
+	                EXPORT  AUXCombEventIntHandler    [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 227: [E0002] Illegal mnemonic specified
+	                EXPORT  AONProgIntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 228: [E0002] Illegal mnemonic specified
+	                EXPORT  DynProgIntHandler         [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 229: [E0002] Illegal mnemonic specified
+	                EXPORT  AUXCompAIntHandler        [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 230: [E0002] Illegal mnemonic specified
+	                EXPORT  AUXADCIntHandler          [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 231: [E0002] Illegal mnemonic specified
+	                EXPORT  TRNGIntHandler            [WEAK]
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 263: [E0200] Bad term in expression
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 263: [E0001] Illegal symbol
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 263: [E0003] Unexpected trailing operand(s)
+	                B       .
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 264: [E0002] Illegal mnemonic specified
+	                ENDP
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 267: [E0002] Illegal mnemonic specified
+	                ALIGN
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 272: [E0002] Illegal mnemonic specified
+	                IF      :DEF:__MICROLIB
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 274: [E0002] Illegal mnemonic specified
+	                EXPORT  __initial_sp
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 275: [E0002] Illegal mnemonic specified
+	                EXPORT  __heap_base
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 276: [E0002] Illegal mnemonic specified
+	                EXPORT  __heap_limit
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 278: [E0002] Illegal mnemonic specified
+	                ELSE
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 280: [E0002] Illegal mnemonic specified
+	                IMPORT  __use_two_region_memory
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 281: [E0002] Illegal mnemonic specified
+	                EXPORT  __user_initial_stackheap
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 284: [E0200] Bad term in expression
+	                LDR     R0, =  Heap_Mem
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 284: [E0001] Illegal symbol
+	                LDR     R0, =  Heap_Mem
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 284: [E0003] Unexpected trailing operand(s)
+	                LDR     R0, =  Heap_Mem
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 285: [E0200] Bad term in expression
+	                LDR     R1, =(Stack_Mem + Stack_Size)
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 285: [E0001] Illegal symbol
+	                LDR     R1, =(Stack_Mem + Stack_Size)
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 285: [E0003] Unexpected trailing operand(s)
+	                LDR     R1, =(Stack_Mem + Stack_Size)
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 286: [E0200] Bad term in expression
+	                LDR     R2, = (Heap_Mem +  Heap_Size)
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 286: [E0001] Illegal symbol
+	                LDR     R2, = (Heap_Mem +  Heap_Size)
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 286: [E0003] Unexpected trailing operand(s)
+	                LDR     R2, = (Heap_Mem +  Heap_Size)
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 287: [E0200] Bad term in expression
+	                LDR     R3, = Stack_Mem
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 287: [E0001] Illegal symbol
+	                LDR     R3, = Stack_Mem
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 287: [E0003] Unexpected trailing operand(s)
+	                LDR     R3, = Stack_Mem
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 290: [E0002] Illegal mnemonic specified
+	                ALIGN
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 292: [E0002] Illegal mnemonic specified
+	                ENDIF
+
+"../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s", ERROR!   at line 295: [E0002] Illegal mnemonic specified
+	                END
+
+
+Errors in Source - Assembler Aborted
+gmake: *** [src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.obj] Error 1
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/pin/PINCC26XX.h", line 63: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/boards/CC1310_LAUNCHXL/CC1310_LAUNCHXL.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/boards/CC1310_LAUNCHXL/CC1310_LAUNCHXL.obj] Error 1
+Building file: ../src/Sensor_src/sensor_light2.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Sensor_src/sensor_light2.d" --obj_directory="src/Sensor_src" --cmd_file="configPkg/compiler.opt" "../src/Sensor_src/sensor_light2.c"
+
+>> Compilation failure
+src/Sensor_src/subdir_rules.mk:35: recipe for target 'src/Sensor_src/sensor_light2.obj' failed
+Building file: ../src/Sensor_src/opt3001.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Sensor_src/opt3001.d" --obj_directory="src/Sensor_src" --cmd_file="configPkg/compiler.opt" "../src/Sensor_src/opt3001.c"
+
+>> Compilation failure
+src/Sensor_src/subdir_rules.mk:28: recipe for target 'src/Sensor_src/opt3001.obj' failed
+Building file: ../src/Sensor_src/acs712.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Sensor_src/acs712.d" --obj_directory="src/Sensor_src" --cmd_file="configPkg/compiler.opt" "../src/Sensor_src/acs712.c"
+
+>> Compilation failure
+src/Sensor_src/subdir_rules.mk:14: recipe for target 'src/Sensor_src/acs712.obj' failed
+Building file: ../src/ti/source/third_party/fatfs/utils/fsutils.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/third_party/fatfs/utils/fsutils.d" --obj_directory="src/ti/source/third_party/fatfs/utils" --cmd_file="configPkg/compiler.opt" "../src/ti/source/third_party/fatfs/utils/fsutils.c"
+
+>> Compilation failure
+src/ti/source/third_party/fatfs/utils/subdir_rules.mk:28: recipe for target 'src/ti/source/third_party/fatfs/utils/fsutils.obj' failed
+Building file: ../src/ti/source/third_party/fatfs/utils/fatfs_ram.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/third_party/fatfs/utils/fatfs_ram.d" --obj_directory="src/ti/source/third_party/fatfs/utils" --cmd_file="configPkg/compiler.opt" "../src/ti/source/third_party/fatfs/utils/fatfs_ram.c"
+
+>> Compilation failure
+src/ti/source/third_party/fatfs/utils/subdir_rules.mk:21: recipe for target 'src/ti/source/third_party/fatfs/utils/fatfs_ram.obj' failed
+Building file: ../src/ti/source/third_party/fatfs/utils/imagetosrc.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/third_party/fatfs/utils/imagetosrc.d" --obj_directory="src/ti/source/third_party/fatfs/utils" --cmd_file="configPkg/compiler.opt" "../src/ti/source/third_party/fatfs/utils/imagetosrc.c"
+
+>> Compilation failure
+src/ti/source/third_party/fatfs/utils/subdir_rules.mk:35: recipe for target 'src/ti/source/third_party/fatfs/utils/imagetosrc.obj' failed
+Building file: ../src/ti/source/third_party/fatfs/utils/lsimage.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/third_party/fatfs/utils/lsimage.d" --obj_directory="src/ti/source/third_party/fatfs/utils" --cmd_file="configPkg/compiler.opt" "../src/ti/source/third_party/fatfs/utils/lsimage.c"
+
+>> Compilation failure
+src/ti/source/third_party/fatfs/utils/subdir_rules.mk:42: recipe for target 'src/ti/source/third_party/fatfs/utils/lsimage.obj' failed
+Building file: ../src/ti/source/third_party/fatfs/utils/mkimage.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/third_party/fatfs/utils/mkimage.d" --obj_directory="src/ti/source/third_party/fatfs/utils" --cmd_file="configPkg/compiler.opt" "../src/ti/source/third_party/fatfs/utils/mkimage.c"
+
+>> Compilation failure
+src/ti/source/third_party/fatfs/utils/subdir_rules.mk:56: recipe for target 'src/ti/source/third_party/fatfs/utils/mkimage.obj' failed
+Building file: ../src/ti/source/ti/boards/CC1310_LAUNCHXL/ccfg.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/boards/CC1310_LAUNCHXL/ccfg.d" --obj_directory="src/ti/source/ti/boards/CC1310_LAUNCHXL" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/boards/CC1310_LAUNCHXL/ccfg.c"
+
+>> Compilation failure
+src/ti/source/ti/boards/CC1310_LAUNCHXL/subdir_rules.mk:14: recipe for target 'src/ti/source/ti/boards/CC1310_LAUNCHXL/ccfg.obj' failed
+Building file: ../src/ti/source/ti/devices/cc13x0/startup_files/startup_gcc.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/devices/cc13x0/startup_files/startup_gcc.d" --obj_directory="src/ti/source/ti/devices/cc13x0/startup_files" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/devices/cc13x0/startup_files/startup_gcc.c"
+
+>> Compilation failure
+src/ti/source/ti/devices/cc13x0/startup_files/subdir_rules.mk:21: recipe for target 'src/ti/source/ti/devices/cc13x0/startup_files/startup_gcc.obj' failed
+Building file: ../src/ti/source/ti/devices/cc13x0/startup_files/startup_iar.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/devices/cc13x0/startup_files/startup_iar.d" --obj_directory="src/ti/source/ti/devices/cc13x0/startup_files" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/devices/cc13x0/startup_files/startup_iar.c"
+
+>> Compilation failure
+src/ti/source/ti/devices/cc13x0/startup_files/subdir_rules.mk:28: recipe for target 'src/ti/source/ti/devices/cc13x0/startup_files/startup_iar.obj' failed
+Building file: ../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.d" --obj_directory="src/ti/source/ti/devices/cc13x0/startup_files" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.s"
+200 Assembly Errors, No Assembly Warnings
+
+>> Compilation failure
+src/ti/source/ti/devices/cc13x0/startup_files/subdir_rules.mk:35: recipe for target 'src/ti/source/ti/devices/cc13x0/startup_files/startup_keil.obj' failed
+Building file: ../src/ti/source/ti/drivers/I2C.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/I2C.d" --obj_directory="src/ti/source/ti/drivers" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/I2C.c"
+Finished building: ../src/ti/source/ti/drivers/I2C.c
+ 
+Building file: ../src/ti/source/ti/boards/CC1310_LAUNCHXL/CC1310_LAUNCHXL.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/boards/CC1310_LAUNCHXL/CC1310_LAUNCHXL.d" --obj_directory="src/ti/source/ti/boards/CC1310_LAUNCHXL" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/boards/CC1310_LAUNCHXL/CC1310_LAUNCHXL.c"
+
+>> Compilation failure
+src/ti/source/ti/boards/CC1310_LAUNCHXL/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/boards/CC1310_LAUNCHXL/CC1310_LAUNCHXL.obj' failed
+Building file: ../src/ti/source/ti/drivers/I2S.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/I2S.d" --obj_directory="src/ti/source/ti/drivers" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/I2S.c"
+Finished building: ../src/ti/source/ti/drivers/I2S.c
+ 
+Building file: ../src/ti/source/ti/drivers/NVS.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/NVS.d" --obj_directory="src/ti/source/ti/drivers" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/NVS.c"
+Finished building: ../src/ti/source/ti/drivers/NVS.c
+ 
+Building file: ../src/ti/source/ti/drivers/ADC.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/ADC.d" --obj_directory="src/ti/source/ti/drivers" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/ADC.c"
+Finished building: ../src/ti/source/ti/drivers/ADC.c
+ 
+Building file: ../src/ti/source/ti/drivers/PWM.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/PWM.d" --obj_directory="src/ti/source/ti/drivers" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/PWM.c"
+Finished building: ../src/ti/source/ti/drivers/PWM.c
+ 
+Building file: ../src/ti/source/ti/drivers/SD.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/SD.d" --obj_directory="src/ti/source/ti/drivers" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/SD.c"
+Finished building: ../src/ti/source/ti/drivers/SD.c
+ 
+Building file: ../src/ti/source/ti/drivers/SDSPI.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/SDSPI.d" --obj_directory="src/ti/source/ti/drivers" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/SDSPI.c"
+Finished building: ../src/ti/source/ti/drivers/SDSPI.c
+ 
+Building file: ../src/ti/source/ti/drivers/I2CSlave.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/I2CSlave.d" --obj_directory="src/ti/source/ti/drivers" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/I2CSlave.c"
+Finished building: ../src/ti/source/ti/drivers/I2CSlave.c
+ 
+Building file: ../src/ti/source/ti/drivers/SPI.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/SPI.d" --obj_directory="src/ti/source/ti/drivers" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/SPI.c"
+Finished building: ../src/ti/source/ti/drivers/SPI.c
+ 
+Building file: ../src/ti/source/ti/display/DisplayUart.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/display/DisplayUart.d" --obj_directory="src/ti/source/ti/display" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/display/DisplayUart.c"
+Finished building: ../src/ti/source/ti/display/DisplayUart.c
+ 
+Building file: ../src/ti/source/ti/drivers/Timer.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/Timer.d" --obj_directory="src/ti/source/ti/drivers" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/Timer.c"
+Finished building: ../src/ti/source/ti/drivers/Timer.c
+ 
+Building file: ../src/ti/source/ti/drivers/Watchdog.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/Watchdog.d" --obj_directory="src/ti/source/ti/drivers" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/Watchdog.c"
+Finished building: ../src/ti/source/ti/drivers/Watchdog.c
+ 
+Building file: ../src/ti/source/ti/drivers/UART.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/UART.d" --obj_directory="src/ti/source/ti/drivers" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/UART.c"
+Finished building: ../src/ti/source/ti/drivers/UART.c
+ 
+Building file: ../src/ti/source/ti/drivers/adc/ADCCC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/adc/ADCCC26XX.d" --obj_directory="src/ti/source/ti/drivers/adc" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/adc/ADCCC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/adc/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/adc/ADCCC26XX.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/pin/PINCC26XX.h", line 63: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/adc/ADCCC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/adc/ADCCC26XX.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/gpio/GPIOCC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/gpio/GPIOCC26XX.d" --obj_directory="src/ti/source/ti/drivers/gpio" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/gpio/GPIOCC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/gpio/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/gpio/GPIOCC26XX.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/gpio/GPIOCC26XX.h", line 153: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/gpio/GPIOCC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/gpio/GPIOCC26XX.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/adcbuf/ADCBufCC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/adcbuf/ADCBufCC26XX.d" --obj_directory="src/ti/source/ti/drivers/adcbuf" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/adcbuf/ADCBufCC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/adcbuf/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/adcbuf/ADCBufCC26XX.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/pin/PINCC26XX.h", line 63: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/adcbuf/ADCBufCC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/adcbuf/ADCBufCC26XX.obj] Error 1
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/dma/UDMACC26XX.h", line 130: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/dma/UDMACC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/dma/UDMACC26XX.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/dma/UDMACC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/dma/UDMACC26XX.d" --obj_directory="src/ti/source/ti/drivers/dma" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/dma/UDMACC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/dma/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/dma/UDMACC26XX.obj' failed
+Building file: ../src/ti/source/ti/drivers/crypto/CryptoCC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/crypto/CryptoCC26XX.d" --obj_directory="src/ti/source/ti/drivers/crypto" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/crypto/CryptoCC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/crypto/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/crypto/CryptoCC26XX.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/crypto/CryptoCC26XX.h", line 381: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/crypto/CryptoCC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/crypto/CryptoCC26XX.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/i2c/I2CCC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/i2c/I2CCC26XX.d" --obj_directory="src/ti/source/ti/drivers/i2c" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/i2c/I2CCC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/i2c/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/i2c/I2CCC26XX.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/pin/PINCC26XX.h", line 63: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/i2c/I2CCC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/i2c/I2CCC26XX.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/package/package_ti.drivers.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/package/package_ti.drivers.d" --obj_directory="src/ti/source/ti/drivers/package" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/package/package_ti.drivers.c"
+Finished building: ../src/ti/source/ti/drivers/package/package_ti.drivers.c
+ 
+Building file: ../src/ti/source/ti/display/DisplayDogm1286.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/display/DisplayDogm1286.d" --obj_directory="src/ti/source/ti/display" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/display/DisplayDogm1286.c"
+Finished building: ../src/ti/source/ti/display/DisplayDogm1286.c
+ 
+Building file: ../src/ti/source/ti/drivers/SDFatFS.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/SDFatFS.d" --obj_directory="src/ti/source/ti/drivers" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/SDFatFS.c"
+Finished building: ../src/ti/source/ti/drivers/SDFatFS.c
+ 
+Building file: ../src/ti/source/ti/drivers/nvs/NVSCC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/nvs/NVSCC26XX.d" --obj_directory="src/ti/source/ti/drivers/nvs" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/nvs/NVSCC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/nvs/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/nvs/NVSCC26XX.obj' failed
+"../src/ti/source/ti/drivers/nvs/NVSCC26XX.c", line 59: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/nvs/NVSCC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/nvs/NVSCC26XX.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/pdm/package/package_ti.drivers.pdm.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/pdm/package/package_ti.drivers.pdm.d" --obj_directory="src/ti/source/ti/drivers/pdm/package" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/pdm/package/package_ti.drivers.pdm.c"
+Finished building: ../src/ti/source/ti/drivers/pdm/package/package_ti.drivers.pdm.c
+ 
+Building file: ../src/ti/source/ti/display/DisplaySharp.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/display/DisplaySharp.d" --obj_directory="src/ti/source/ti/display" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/display/DisplaySharp.c"
+Finished building: ../src/ti/source/ti/display/DisplaySharp.c
+ 
+Building file: ../src/ti/source/ti/drivers/pdm/Codec1.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/pdm/Codec1.d" --obj_directory="src/ti/source/ti/drivers/pdm" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/pdm/Codec1.c"
+Finished building: ../src/ti/source/ti/drivers/pdm/Codec1.c
+ 
+Building file: ../src/ti/source/ti/drivers/pdm/PDMCC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/pdm/PDMCC26XX.d" --obj_directory="src/ti/source/ti/drivers/pdm" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/pdm/PDMCC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/pdm/subdir_rules.mk:14: recipe for target 'src/ti/source/ti/drivers/pdm/PDMCC26XX.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/pin/PINCC26XX.h", line 63: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/pdm/PDMCC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/pdm/PDMCC26XX.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/pdm/PDMCC26XX_util.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/pdm/PDMCC26XX_util.d" --obj_directory="src/ti/source/ti/drivers/pdm" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/pdm/PDMCC26XX_util.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/pdm/subdir_rules.mk:21: recipe for target 'src/ti/source/ti/drivers/pdm/PDMCC26XX_util.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/pin/PINCC26XX.h", line 63: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/pdm/PDMCC26XX_util.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/pdm/PDMCC26XX_util.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/pin/PINCC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/pin/PINCC26XX.d" --obj_directory="src/ti/source/ti/drivers/pin" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/pin/PINCC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/pin/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/pin/PINCC26XX.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/pin/PINCC26XX.h", line 63: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/pin/PINCC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/pin/PINCC26XX.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/pwm/PWMTimerCC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/pwm/PWMTimerCC26XX.d" --obj_directory="src/ti/source/ti/drivers/pwm" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/pwm/PWMTimerCC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/pwm/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/pwm/PWMTimerCC26XX.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/pin/PINCC26XX.h", line 63: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/pwm/PWMTimerCC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/pwm/PWMTimerCC26XX.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/power/PowerCC26XX_calibrateRCOSC.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/power/PowerCC26XX_calibrateRCOSC.d" --obj_directory="src/ti/source/ti/drivers/power" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/power/PowerCC26XX_calibrateRCOSC.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/power/subdir_rules.mk:14: recipe for target 'src/ti/source/ti/drivers/power/PowerCC26XX_calibrateRCOSC.obj' failed
+"../src/ti/source/ti/drivers/power/PowerCC26XX_calibrateRCOSC.c", line 50: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/power/PowerCC26XX_calibrateRCOSC.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/power/PowerCC26XX_calibrateRCOSC.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/rf/package/package_ti.drivers.rf.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/rf/package/package_ti.drivers.rf.d" --obj_directory="src/ti/source/ti/drivers/rf/package" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/rf/package/package_ti.drivers.rf.c"
+Finished building: ../src/ti/source/ti/drivers/rf/package/package_ti.drivers.rf.c
+ 
+Building file: ../src/ti/source/ti/drivers/power/PowerCC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/power/PowerCC26XX.d" --obj_directory="src/ti/source/ti/drivers/power" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/power/PowerCC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/power/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/power/PowerCC26XX.obj' failed
+"../src/ti/source/ti/drivers/power/PowerCC26XX.c", line 52: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/power/PowerCC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/power/PowerCC26XX.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/rf/RFCC26XX_multiMode.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/rf/RFCC26XX_multiMode.d" --obj_directory="src/ti/source/ti/drivers/rf" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/rf/RFCC26XX_multiMode.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/rf/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/rf/RFCC26XX_multiMode.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/rf/RF.h", line 240: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/rf/RFCC26XX_multiMode.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/rf/RFCC26XX_multiMode.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/rf/RFCC26XX_singleMode.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/rf/RFCC26XX_singleMode.d" --obj_directory="src/ti/source/ti/drivers/rf" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/rf/RFCC26XX_singleMode.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/rf/subdir_rules.mk:14: recipe for target 'src/ti/source/ti/drivers/rf/RFCC26XX_singleMode.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/rf/RF.h", line 240: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/rf/RFCC26XX_singleMode.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/rf/RFCC26XX_singleMode.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/utils/List.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/utils/List.d" --obj_directory="src/ti/source/ti/drivers/utils" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/utils/List.c"
+Finished building: ../src/ti/source/ti/drivers/utils/List.c
+ 
+Building file: ../src/ti/source/ti/drivers/utils/RingBuf.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/utils/RingBuf.d" --obj_directory="src/ti/source/ti/drivers/utils" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/utils/RingBuf.c"
+Finished building: ../src/ti/source/ti/drivers/utils/RingBuf.c
+ 
+Building file: ../src/ti/source/ti/drivers/spi/SPICC26XXDMA.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/spi/SPICC26XXDMA.d" --obj_directory="src/ti/source/ti/drivers/spi" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/spi/SPICC26XXDMA.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/spi/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/spi/SPICC26XXDMA.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/pin/PINCC26XX.h", line 63: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/spi/SPICC26XXDMA.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/spi/SPICC26XXDMA.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/uart/UARTCC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/uart/UARTCC26XX.d" --obj_directory="src/ti/source/ti/drivers/uart" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/uart/UARTCC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/uart/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/uart/UARTCC26XX.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/pin/PINCC26XX.h", line 63: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/uart/UARTCC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/uart/UARTCC26XX.obj] Error 1
+Building file: ../src/ti/source/ti/drivers/watchdog/WatchdogCC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/watchdog/WatchdogCC26XX.d" --obj_directory="src/ti/source/ti/drivers/watchdog" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/watchdog/WatchdogCC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/watchdog/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/watchdog/WatchdogCC26XX.obj' failed
+"../src/ti/source/ti/drivers/watchdog/WatchdogCC26XX.c", line 53: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/watchdog/WatchdogCC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/watchdog/WatchdogCC26XX.obj] Error 1
+Building file: ../src/ti/source/ti/grlib/button.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/button.d" --obj_directory="src/ti/source/ti/grlib" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/button.c"
+Finished building: ../src/ti/source/ti/grlib/button.c
+ 
+Building file: ../src/ti/source/ti/grlib/checkbox.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/checkbox.d" --obj_directory="src/ti/source/ti/grlib" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/checkbox.c"
+Finished building: ../src/ti/source/ti/grlib/checkbox.c
+ 
+Building file: ../src/ti/source/ti/grlib/display.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/display.d" --obj_directory="src/ti/source/ti/grlib" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/display.c"
+Finished building: ../src/ti/source/ti/grlib/display.c
+ 
+Building file: ../src/ti/source/ti/grlib/context.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/context.d" --obj_directory="src/ti/source/ti/grlib" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/context.c"
+Finished building: ../src/ti/source/ti/grlib/context.c
+ 
+Building file: ../src/ti/source/ti/grlib/circle.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/circle.d" --obj_directory="src/ti/source/ti/grlib" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/circle.c"
+Finished building: ../src/ti/source/ti/grlib/circle.c
+ 
+Building file: ../src/ti/source/ti/grlib/image.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/image.d" --obj_directory="src/ti/source/ti/grlib" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/image.c"
+Finished building: ../src/ti/source/ti/grlib/image.c
+ 
+Building file: ../src/ti/source/ti/drivers/timer/GPTimerCC26XX.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/drivers/timer/GPTimerCC26XX.d" --obj_directory="src/ti/source/ti/drivers/timer" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/drivers/timer/GPTimerCC26XX.c"
+
+>> Compilation failure
+src/ti/source/ti/drivers/timer/subdir_rules.mk:7: recipe for target 'src/ti/source/ti/drivers/timer/GPTimerCC26XX.obj' failed
+"/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source/ti/drivers/timer/GPTimerCC26XX.h", line 161: fatal error #35: #error directive: "You must define DEVICE_FAMILY at the project level as one of cc26x0, cc26x0r2, cc13x0, etc."
+1 catastrophic error detected in the compilation of "../src/ti/source/ti/drivers/timer/GPTimerCC26XX.c".
+Compilation terminated.
+gmake: *** [src/ti/source/ti/drivers/timer/GPTimerCC26XX.obj] Error 1
+Building file: ../src/ti/source/ti/grlib/imageButton.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/imageButton.d" --obj_directory="src/ti/source/ti/grlib" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/imageButton.c"
+Finished building: ../src/ti/source/ti/grlib/imageButton.c
+ 
+Building file: ../src/ti/source/ti/grlib/radioButton.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/radioButton.d" --obj_directory="src/ti/source/ti/grlib" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/radioButton.c"
+Finished building: ../src/ti/source/ti/grlib/radioButton.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm12.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm12.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm12.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm12.c
+ 
+Building file: ../src/ti/source/ti/grlib/rectangle.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/rectangle.d" --obj_directory="src/ti/source/ti/grlib" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/rectangle.c"
+Finished building: ../src/ti/source/ti/grlib/rectangle.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm12i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm12i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm12i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm12i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm14.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm14.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm14.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm14.c
+ 
+Building file: ../src/ti/source/ti/grlib/line.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/line.d" --obj_directory="src/ti/source/ti/grlib" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/line.c"
+Finished building: ../src/ti/source/ti/grlib/line.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm14b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm14b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm14b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm14b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm14i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm14i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm14i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm14i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm16.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm16.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm16.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm16.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm16b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm16b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm16b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm16b.c
+ 
+Building file: ../src/ti/source/ti/grlib/string.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/string.d" --obj_directory="src/ti/source/ti/grlib" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/string.c"
+Finished building: ../src/ti/source/ti/grlib/string.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm16i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm16i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm16i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm16i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm18.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm18.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm18.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm18.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm18b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm18b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm18b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm18b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm18i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm18i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm18i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm18i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm12b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm12b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm12b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm12b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm20.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm20.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm20.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm20.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm20i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm20i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm20i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm20i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm20b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm20b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm20b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm20b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm22.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm22.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm22.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm22.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm22b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm22b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm22b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm22b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm22i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm22i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm22i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm22i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm24.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm24.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm24.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm24.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm24b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm24b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm24b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm24b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm26b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm26b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm26b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm26b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm26i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm26i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm26i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm26i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm28b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm28b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm28b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm28b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm28.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm28.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm28.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm28.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm26.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm26.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm26.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm26.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm24i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm24i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm24i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm24i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm28i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm28i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm28i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm28i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm30.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm30.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm30.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm30.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm30b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm30b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm30b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm30b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm32.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm32.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm32.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm32.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm30i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm30i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm30i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm30i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm32b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm32b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm32b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm32b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm32i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm32i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm32i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm32i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm34.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm34.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm34.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm34.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm34b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm34b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm34b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm34b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm34i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm34i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm34i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm34i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm36.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm36.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm36.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm36.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm36b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm36b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm36b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm36b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm38.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm38.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm38.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm38.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm36i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm36i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm36i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm36i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm38b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm38b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm38b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm38b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm38i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm38i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm38i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm38i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm40b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm40b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm40b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm40b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm40i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm40i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm40i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm40i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm42b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm42b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm42b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm42b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm42.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm42.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm42.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm42.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm42i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm42i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm42i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm42i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm44.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm44.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm44.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm44.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm40.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm40.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm40.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm40.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm44b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm44b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm44b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm44b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm44i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm44i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm44i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm44i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm46.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm46.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm46.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm46.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm46b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm46b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm46b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm46b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm46i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm46i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm46i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm46i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm48b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm48b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm48b.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm48b.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc12.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc12.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc12.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc12.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm48.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm48.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm48.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm48.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc14.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc14.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc14.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc14.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcm48i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcm48i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcm48i.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcm48i.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc18.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc18.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc18.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc18.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc16.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc16.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc16.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc16.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc20.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc20.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc20.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc20.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc22.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc22.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc22.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc22.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc24.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc24.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc24.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc24.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc26.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc26.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc26.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc26.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc28.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc28.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc28.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc28.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc30.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc30.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc30.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc30.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc32.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc32.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc32.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc32.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc34.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc34.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc34.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc34.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc36.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc36.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc36.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc36.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc38.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc38.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc38.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc38.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc40.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc40.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc40.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc40.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc42.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc42.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc42.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc42.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc44.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc44.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc44.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc44.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc46.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc46.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc46.c"
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmsc46.c
+ 
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmss12.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmss12.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmss12.c"
+gmake: *** [src/ti/source/ti/grlib/fonts/fontcmss16.obj] Terminated: 15
+gmake: *** [src/ti/source/ti/grlib/fonts/fontcmss12b.obj] Terminated: 15
+[/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl received a terminate signal]
+gmake: *** [src/ti/source/ti/grlib/fonts/fontcmss14i.obj] Error 2
+[/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl received a terminate signal]
+gmake: *** [src/ti/source/ti/grlib/fonts/fontcmss14b.obj] Error 2
+[/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl received a terminate signal]
+gmake: *** [src/ti/source/ti/grlib/fonts/fontcmss14.obj] Error 2
+[/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl received a terminate signal]
+gmake: *** [src/ti/source/ti/grlib/fonts/fontcmss12i.obj] Error 2
+[/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl received a terminate signal]
+gmake: *** [src/ti/source/ti/grlib/fonts/fontcmsc48.obj] Error 2
+Finished building: ../src/ti/source/ti/grlib/fonts/fontcmss12.c
+ 
+src/ti/source/ti/grlib/fonts/subdir_rules.mk:581: recipe for target 'src/ti/source/ti/grlib/fonts/fontcmss16.obj' failed
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmss12b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmss12b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmss12b.c"
+src/ti/source/ti/grlib/fonts/subdir_rules.mk:546: recipe for target 'src/ti/source/ti/grlib/fonts/fontcmss12b.obj' failed
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmss14i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmss14i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmss14i.c"
+src/ti/source/ti/grlib/fonts/subdir_rules.mk:574: recipe for target 'src/ti/source/ti/grlib/fonts/fontcmss14i.obj' failed
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmss14b.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmss14b.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmss14b.c"
+src/ti/source/ti/grlib/fonts/subdir_rules.mk:567: recipe for target 'src/ti/source/ti/grlib/fonts/fontcmss14b.obj' failed
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmss14.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmss14.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmss14.c"
+src/ti/source/ti/grlib/fonts/subdir_rules.mk:560: recipe for target 'src/ti/source/ti/grlib/fonts/fontcmss14.obj' failed
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmss12i.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmss12i.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmss12i.c"
+src/ti/source/ti/grlib/fonts/subdir_rules.mk:553: recipe for target 'src/ti/source/ti/grlib/fonts/fontcmss12i.obj' failed
+Building file: ../src/ti/source/ti/grlib/fonts/fontcmsc48.c
+Invoking: ARM Compiler
+"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/bin/armcl" -mv7M3 --code_state=16 -me --include_path="/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/ti/source/ti/grlib/fonts/fontcmsc48.d" --obj_directory="src/ti/source/ti/grlib/fonts" --cmd_file="configPkg/compiler.opt" "../src/ti/source/ti/grlib/fonts/fontcmsc48.c"
+src/ti/source/ti/grlib/fonts/subdir_rules.mk:532: recipe for target 'src/ti/source/ti/grlib/fonts/fontcmsc48.obj' failed
+
+**** Build of configuration Debug for project SCLS_Slave_Node ****
+
+!CommandLauncher.error.commandCanceled!
+Error: Program "/Applications/ti/ccsv7/utils/bin/gmake" is not found in PATH
+
+PATH=[/usr/bin:/bin:/usr/sbin:/sbin]
+
+**** Build Finished ****

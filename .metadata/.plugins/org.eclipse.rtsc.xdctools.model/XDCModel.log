@@ -1,0 +1,483 @@
+Mar 06, 2017 12:34:35 PM org.eclipse.rtsc.xdctools.ui.logger.XDCLogger LogException
+SEVERE: org.eclipse.rtsc.xdctools.INTERNAL: Unable to find package xconfig_release
+xdc.services.global.XDCException: org.eclipse.rtsc.xdctools.INTERNAL: Unable to find package xconfig_release
+	at org.eclipse.rtsc.xdctools.model.ui.exe.ConfiguroExeUpdateJob.execConfiguro(Unknown Source)
+	at org.eclipse.rtsc.xdctools.model.ui.exe.ConfiguroExeUpdateJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+Mar 06, 2017 12:34:35 PM ConfigOutlinePage createTreeViewPage
+FINER: RETURN org.eclipse.rtsc.xdctools.model.ui.editors.ConfigOutlinePage@23e0ce20
+Mar 06, 2017 12:34:36 PM ModelObjectRoot ModelObject
+FINER: ENTRY root
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY root null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY root MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@36c31c10
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@36c31c10
+Mar 06, 2017 12:34:36 PM ModelObjectRoot ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectRoot ModelObject
+FINER: ENTRY spec root
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY spec root null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY spec root MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@48b4302a
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@48b4302a
+Mar 06, 2017 12:34:36 PM ModelObjectRoot ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM AvailableModulesPage createPartControl
+FINER: ENTRY
+Mar 06, 2017 12:34:36 PM PackagesPage rebuildView
+FINER: ENTRY
+Mar 06, 2017 12:34:36 PM PackagesPage rebuildView
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM CombinedViewContentProvider initialize
+FINER: ENTRY
+Mar 06, 2017 12:34:36 PM ModelObjectRoot ModelObject
+FINER: ENTRY 
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY  null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY  MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@460bb68a
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@460bb68a
+Mar 06, 2017 12:34:36 PM ModelObjectRoot ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectRoot ModelObject
+FINER: ENTRY All Repositories
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY All Repositories null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY All Repositories MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@5950c2c5
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@5950c2c5
+Mar 06, 2017 12:34:36 PM ModelObjectRoot ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectRoot ModelObject
+FINER: ENTRY Other Products
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY Other Products null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY Other Products MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@7bf40e96
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@7bf40e96
+Mar 06, 2017 12:34:36 PM ModelObjectRoot ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ProductViewJob initialize
+FINER: ENTRY
+Mar 06, 2017 12:34:36 PM ProductViewJob initialize
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM RepositoryViewJob initialize
+FINER: ENTRY
+Mar 06, 2017 12:34:36 PM RepositoryViewJob initialize
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM CombinedViewContentProvider initialize
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM FileObject ModelObject
+FINER: ENTRY source
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY source null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY source MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@39e57f46
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@39e57f46
+Mar 06, 2017 12:34:36 PM FileObject ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM FileObject ModelObject
+FINER: ENTRY packages
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY packages null
+Mar 06, 2017 12:34:36 PM org.eclipse.rtsc.xdctools.ui.logger.XDCLogger Trace
+INFO: Executing xdc.tools.xgconf.productview, args: [--packagePath, /Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/source;/Users/Chris/ti/tirex-content/simplelink_cc13x0_sdk_1_00_00_13/kernel/tirtos/packages;/Applications/ti/ccsv7/ccs_base;/Users/Chris/Drive/Classes/8th_Semester/EE 464K/SmartCityLighting/tirtos_builds_CC1310_LAUNCHXL_release_ccs/.config/;/Applications/ti/xdctools_3_32_01_22_core/packages;/Applications/ti/xdctools_3_32_01_22_core/packages, --platform, ti.platforms.simplelink:CC1310F128, --target, ti.targets.arm.elf.M3, xdc.productview.ProductView]
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY packages MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@6ca4cb3c
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@6ca4cb3c
+Mar 06, 2017 12:34:36 PM FileObject ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM FileObject ModelObject
+FINER: ENTRY ccs_base
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY ccs_base null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY ccs_base MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@342e9427
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@342e9427
+Mar 06, 2017 12:34:36 PM FileObject ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM AvailableModulesPage createPartControl
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ProgramConfigurationEditorContributor setActivePage
+FINER: ENTRY null
+Mar 06, 2017 12:34:36 PM ProgramConfigurationEditorContributor setActivePage
+FINER: ENTRY null
+Mar 06, 2017 12:34:36 PM PackagePropertiesPage propertyChange
+FINER: ENTRY org.eclipse.jface.util.PropertyChangeEvent[source=org.eclipse.rtsc.xdctools.model.elements.Model@73e82ce3]
+Mar 06, 2017 12:34:36 PM PackagePropertiesPage propertyChange
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: ENTRY XDCtools
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY XDCtools null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY XDCtools MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@6cb68868
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@6cb68868
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM PackagePropertiesPage propertyChange
+FINER: ENTRY org.eclipse.jface.util.PropertyChangeEvent[source=org.eclipse.rtsc.xdctools.model.elements.Model@73e82ce3]
+Mar 06, 2017 12:34:36 PM PackagePropertiesPage propertyChange
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM PackagePropertiesPage propertyChange
+FINER: ENTRY org.eclipse.jface.util.PropertyChangeEvent[source=org.eclipse.rtsc.xdctools.model.elements.Model@73e82ce3]
+Mar 06, 2017 12:34:36 PM PackagePropertiesPage propertyChange
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: ENTRY XDCtools.System
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY XDCtools.System null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY XDCtools.System MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@238e4baa
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@238e4baa
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: ENTRY XDCtools.Diagnostics
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY XDCtools.Diagnostics null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY XDCtools.Diagnostics MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@e3212f0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@e3212f0
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: ENTRY XDCtools.Memory Management
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY XDCtools.Memory Management null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY XDCtools.Memory Management MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@1fe0243f
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@1fe0243f
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: ENTRY XDCtools.Synchronization
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY XDCtools.Synchronization null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY XDCtools.Synchronization MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@627f3bce
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@627f3bce
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: ENTRY xdc.services.spec.Pkg@79306a89 xdc.services.spec.Unit@628a8f2a [DisplayConnection: XDCtools.System] 0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: ENTRY xdc.services.spec.Pkg@79306a89 xdc.services.spec.Unit@628a8f2a [DisplayConnection: XDCtools.System] 0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY Program null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY Program MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@4e76730
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@4e76730
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: RETURN [Unit: Program]
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@48bc123d [DisplayConnection: XDCtools.System] 0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@48bc123d [DisplayConnection: XDCtools.System] 0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY Main null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY Main MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@ae94305
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@ae94305
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: RETURN [Unit: Main]
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@3dafaa56 [DisplayConnection: XDCtools.System] 0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@3dafaa56 [DisplayConnection: XDCtools.System] 0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY Registry null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY Registry MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@63376786
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@63376786
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: RETURN [Unit: Registry]
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@2306e18e [DisplayConnection: XDCtools.System] 0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@2306e18e [DisplayConnection: XDCtools.System] 0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY Defaults null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY Defaults MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@2586afab
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@2586afab
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: RETURN [Unit: Defaults]
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@57ac3114 [DisplayConnection: XDCtools.System] 0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@57ac3114 [DisplayConnection: XDCtools.System] 0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY System null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY System MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@69cb636f
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@69cb636f
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: RETURN [Unit: System]
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: ENTRY XDCtools.System.System Providers
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY XDCtools.System.System Providers null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY XDCtools.System.System Providers MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@226e59bf
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@226e59bf
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@d7d51a8 [DisplayConnection: XDCtools.System] 0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@d7d51a8 [DisplayConnection: XDCtools.System] 0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY Startup null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY Startup MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@6afd280b
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@6afd280b
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: RETURN [Unit: Startup]
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@3f9fd035 [DisplayConnection: XDCtools.Diagnostics] 0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@3f9fd035 [DisplayConnection: XDCtools.Diagnostics] 0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY Log null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY Log MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@535985fe
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@535985fe
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: RETURN [Unit: Log]
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: ENTRY XDCtools.Diagnostics.Loggers
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY XDCtools.Diagnostics.Loggers null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY XDCtools.Diagnostics.Loggers MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@519fae23
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@519fae23
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@35ac3e3a [DisplayConnection: XDCtools.Diagnostics] 0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@35ac3e3a [DisplayConnection: XDCtools.Diagnostics] 0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY Diags null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY Diags MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@7bb5e7f
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@7bb5e7f
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: RETURN [Unit: Diags]
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@1569f1d6 [DisplayConnection: XDCtools.Diagnostics] 0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@1569f1d6 [DisplayConnection: XDCtools.Diagnostics] 0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY Assert null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY Assert MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@41e34975
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@41e34975
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: RETURN [Unit: Assert]
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@4292e5b4 [DisplayConnection: XDCtools.Diagnostics] 0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@4292e5b4 [DisplayConnection: XDCtools.Diagnostics] 0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY Error null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY Error MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@16d9bd39
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@16d9bd39
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: RETURN [Unit: Error]
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@3e8fdf0a [DisplayConnection: XDCtools.Diagnostics] 0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@3e8fdf0a [DisplayConnection: XDCtools.Diagnostics] 0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY Text null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY Text MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@280c8771
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@280c8771
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: RETURN [Unit: Text]
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@1bd18eb [DisplayConnection: XDCtools.Diagnostics] 0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@1bd18eb [DisplayConnection: XDCtools.Diagnostics] 0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY Timestamp null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY Timestamp MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@5720bdd0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@5720bdd0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: RETURN [Unit: Timestamp]
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: ENTRY XDCtools.Diagnostics.Timestamp Providers
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY XDCtools.Diagnostics.Timestamp Providers null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY XDCtools.Diagnostics.Timestamp Providers MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@72c8a69a
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@72c8a69a
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@36d42bba [DisplayConnection: XDCtools.Memory Management] 0
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: ENTRY xdc.services.spec.Pkg@7e793107 xdc.services.spec.Unit@36d42bba [DisplayConnection: XDCtools.Memory Management] 0
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY Memory null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY Memory MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@f6048b5
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@f6048b5
+Mar 06, 2017 12:34:36 PM ModelUnit ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM ModelObjectFactory createModelObject
+FINER: RETURN [Unit: Memory]
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: ENTRY XDCtools.Memory Management.Heaps
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY XDCtools.Memory Management.Heaps null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY XDCtools.Memory Management.Heaps MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@74018d11
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@74018d11
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: ENTRY XDCtools.Synchronization.Gates
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY XDCtools.Synchronization.Gates null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY XDCtools.Synchronization.Gates MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@667fca20
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@667fca20
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: RETURN
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: ENTRY XDCtools.Synchronization.Syncs
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: ENTRY XDCtools.Synchronization.Syncs null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: ENTRY XDCtools.Synchronization.Syncs MTAString null
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory addModelTypeAttributesQualifiers
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@2d42959b
+Mar 06, 2017 12:34:36 PM ModelTypeAttributesFactory createModelTypeAttributes
+FINER: RETURN org.eclipse.rtsc.xdctools.model.elements.types.MTAString@2d42959b
+Mar 06, 2017 12:34:36 PM DisplayConnection ModelObject
+FINER: RETURN
