@@ -32,7 +32,7 @@
             <div class="col-sm-7">
                 <h1>Smart City Lighting </h1>
 
-                        <p>Short description of system --HERE--</p>
+                        <p>A sub-1 GHz mesh network of smart lighting nodes.</p>
             </div>
         </div>
     </header>
@@ -58,20 +58,17 @@
                 {{(lamps| filter:searchText).length}} lights found
             </p>
             
-            <div id="big-map">
-                <script>
-                    function initMap() {
-                        var uluru = {lat: -25.363, lng: 131.044};
-                        var map = new google.maps.Map(document.getElementById('map'), {
-                            zoom: 4,
-                            center: uluru
-                        });
-                        var marker = new google.maps.Marker({
-                            position: uluru,
-                            map: map
-                        });
-                    }
-                </script>
+            <div id="map" class="col-md-9">
+            </div>
+        
+            <div id="map-list" class="col-md-3">
+                <div class="list-group">
+                    <div class="list-group-item" ng-click="MainController.select()" ng-repeat="lamp in lamps| filter:searchText | orderBy: 'title'">
+                        <h4>LAMP {{lamp.lamp_id}}</h4>
+                        <p><strong>Address:</strong> {{lamp.address}}</p>
+                        <p><strong>Operational:</strong> {{lamp.operational}}</p>
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -89,13 +86,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.js"></script>
     
-    <!-- Main js file -->
-    <script type="text/javascript" src="js/app.js"></script>
-    
     <!-- Google Maps -->
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDS__8qtf8Q78tlTHgHVDBzatwjifrf1vQ&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfGIkGoDHFF-jfiyK2axTvmhDJiirGMt4
+&callback=initMap">
     </script>
+    
+    <!-- Main js file -->
+    <script type="text/javascript" src="js/app.js"></script>
         
 </body>
     
