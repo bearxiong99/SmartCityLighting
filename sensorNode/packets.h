@@ -46,7 +46,7 @@ typedef struct
     uint16_t light;      //14 bits from OPT3001
     uint16_t amps; //16 bits ADC from Hall Effect Sensor
     uint16_t motions;    //Number of passers-by detected since last transmission
-//    uint32_t id; // id of the node that sent the message
+    uint32_t id; // id of the node that sent the message
 } SensorDataStruct;
 
 typedef struct {

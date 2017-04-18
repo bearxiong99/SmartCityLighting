@@ -32,6 +32,7 @@
 #include "mesh.h"
 #include "packets.h"
 #include "sensors.h"
+#include "NODE_ID.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -288,7 +289,7 @@ static void sensorFnx(UArg arg0, UArg arg1) {
         sensors.light = 33;
         sensors.motions = 44;
         sensors.temp = 55;*/
-        //sensors.id = 1;
+        sensors.id = 1;
 
         txPayload(SensorData, (uint8_t*) &sensors, sizeof(SensorDataStruct), &node.parent_address.addr[0]); // Send sensor data to parent
     }
@@ -486,6 +487,13 @@ void initMesh() {
     Semaphore_post(ezlnkSem);
     Semaphore_post(nodeSem);
     Semaphore_post(pingConfSem);
+
+    node.childOnePinged = false;
+    node.hasChildOne = false;
+    node.childTwoPinged = false;
+    node.hasChildTwo = false;
+    node.childThreePinged = false;
+    node.hasChildThree = false;
 
     for(i = 0; i < 8; i++) {
         node.own_address.addr[i] = DEFAULT_NODE_ADDRESS;

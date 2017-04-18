@@ -27,15 +27,21 @@ int config(uint8_t* txBuf, uint8_t* rxBuf, I2C_Transaction i2c, I2C_Handle i2c_h
     i2c.slaveAddress = 0x44;
     if(I2C_transfer(i2c_h, &i2c)) {               //gets config register value
         uint16_t con = (rxBuf[0] << 8) | rxBuf[1];
-        con = con & 0xF9FF; //clear bit 10 and bit 9
-        con = con | 0x0600; //set bit 10 and bit 9   //friendly write
+        //con = con & 0xF9FF; //clear bit 10 and bit 9
+        con = con | 0x0E18; //set bit 10 and bit 9   //friendly write
         i2c.writeCount = 3;
         i2c.readCount = 0;
         uint8_t conLSB = con&0xFF;
         uint8_t conMSB = (con>>8)&0xFF;
         txBuf[1] = conMSB; //msb first
         txBuf[2] = conLSB;  //lsb second
-        return I2C_transfer(i2c_h, &i2c);  //write config register address, msb, lsb
+        I2C_transfer(i2c_h, &i2c);  //write config register address, msb, lsb
+        i2c.writeCount = 3;
+        i2c.readCount = 0;
+        txBuf[0] = 0x02;
+        txBuf[1] = 0xC0;
+        txBuf[2] = 0;
+        return I2C_transfer(i2c_h, &i2c); //configure FL to 0xC000, setting an interrupt on every conversion
     }
     return 0;
 }

@@ -26,13 +26,27 @@ PIN_Config motionPinTable[] = {
     I2C_Transaction i2cTransaction;
     ADC_Handle adc;
     int motions;
+    int light;
+    int good_config;
 
 void motionCallbackFxn(PIN_Handle handle, PIN_Id pinId) {
     if (pinId == 21) {
         CPUdelay(250);
         motions += 1;
+    } else if (pinId == 12 && good_config) {
+        light = get_Light(txBuffer, rxBuffer, i2cTransaction, i2c);
+        int con = get_config(txBuffer, rxBuffer, i2cTransaction, i2c);
+        uint16_t exp = (light >> 12)&0x000F;
+        uint16_t mantissa = light & 0x0FFF;
+        uint32_t lux = 0.01*(mantissa<<exp);
+        if (lux < 50) {
+            LampOn();
+        } else {
+            LampOff();
+        }
     }
 }
+
 /*get interrupt from motion sensor*/
 void initMotion(void){
     motions = 0;
@@ -63,14 +77,19 @@ void init_sensors(void){
     i2c = I2C_open(Board_I2C0, &i2cParams);
     adc = a_init();
     initMotion();
+    good_config = 0;
+}
+
+void config_sensors(void) {
+    light = 0;
+    int id = get_TI_ID(txBuffer, rxBuffer, i2cTransaction, i2c);
+    good_config = config(txBuffer, rxBuffer, i2cTransaction, i2c);
+    setConfig(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
+    initMotion();
 }
 
 void getSensorData(SensorDataStruct *sensorStruct) {
     int z = 1;
-    int light = 0;
-    int id = get_TI_ID(txBuffer, rxBuffer, i2cTransaction, i2c);
-    int good_config = config(txBuffer, rxBuffer, i2cTransaction, i2c);
-    setConfig(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
     requestTemp(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
     uint64_t timeout = ((unsigned long)HDC1010_SLEEP_MS * 1000L) / Clock_tickPeriod;
     Task_sleep(timeout);
