@@ -41,32 +41,29 @@
         <section id="modules">
                     
             <!-- Buttons to toggle website view -->
-            <div class="btn-group btn-group-lg" role="group" aria-label="..." id="view-buttons">
-                <button type="button" class="btn btn-default" id="list-selector">
-                    <a href="ListView.html">List View</a>
-                </button>
-                
-                <button type="button" class="btn btn-default" id="map-selector">
-                    <a href="MapView.html">Map View</a>
-                </button>
+            <div class="row">
+                <div class="btn-group btn-group-lg" role="group" aria-label="..." id="view-buttons">
+                    <button type="button" class="btn btn-default" id="list-selector">
+                        <a href="ListView.html">List View</a>
+                    </button>
+
+                    <button type="button" class="btn btn-default" id="map-selector">
+                        <a href="MapView.html">Map View</a>
+                    </button>
+                </div>    
             </div>
-                    
-            <!-- Search bar -->
-            <p class="text-muted" id="search-bar">
-                <input class="form-control" autofocus="autofocus" style="max-width: 15em; display: block;" ng-model="searchText" placeholder="Search...">
-                
-                {{(lamps| filter:searchText).length}} lights found
-            </p>
             
             <div id="map" class="col-md-9">
             </div>
         
             <div id="map-list" class="col-md-3">
                 <div class="list-group">
-                    <div class="list-group-item" ng-click="MainController.select()" ng-repeat="lamp in lamps| filter:searchText | orderBy: 'title'">
-                        <h4>LAMP {{lamp.lamp_id}}</h4>
-                        <p><strong>Address:</strong> {{lamp.address}}</p>
-                        <p><strong>Operational:</strong> {{lamp.operational}}</p>
+                    <div class="list-group-item" ng-repeat="(key, lamp) in lamps">
+                        <h4>LAMP {{key}}</h4>
+                        <p><strong>Address:</strong> {{lamp[0].address}}</p>
+                        <p><strong>Operational:</strong> {{lamp[0].operational}}</p>
+                        <p><strong>Latitude:</strong> {{lamp[0].latitude}}</p>
+                        <p><strong>Longitude:</strong> {{lamp[0].longitude}}</p>
                     </div>
                 </div>
             </div>

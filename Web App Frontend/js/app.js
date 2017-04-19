@@ -127,7 +127,9 @@ app.controller('MainController', ['$scope', '$interval', '$http', function ($sco
                     'operational': lampData[0].operational,
                     'owner': lampData[0].owner,
                     'count': 1,
-                    'address': lampData[0].address
+                    'address': lampData[0].address,
+                    'latitude': lampData[0].latitude,
+                    'longitude': lampData[0].longitude
                 }
             ];
 
@@ -146,7 +148,9 @@ app.controller('MainController', ['$scope', '$interval', '$http', function ($sco
                             'operational': lampData[k].operational,
                             'owner': lampData[k].owner,
                             'count': $scope.lamps[lampData[k].lamp_id].length + 1,
-                            'address': lampData[k].address
+                            'address': lampData[k].address,
+                            'latitude': lampData[k].latitude,
+                            'longitude': lampData[k].longitude
                         }
                     );
                 } else {
@@ -162,13 +166,16 @@ app.controller('MainController', ['$scope', '$interval', '$http', function ($sco
                             'operational': lampData[k].operational,
                             'owner': lampData[k].owner,
                             'count': 1,
-                            'address': lampData[k].address
+                            'address': lampData[k].address,
+                            'latitude': lampData[k].latitude,
+                            'longitude': lampData[k].longitude
                         }
                     ];
                 }
             }
             $scope.keys = Object.keys($scope.lamps);
         });
+    
 }]);
               
 /****************************** WEATHER CHART SCRIPT ********************************/
@@ -313,57 +320,31 @@ app.directive('linearChart', function ($parse, $window) {
             drawLineChart();
         }
     };
-});
-
-/* FILTER FOR SEARCH FUNCTION */
-app.filter('myFilter', function () {
-    return function (items, search) {
-        var result = [];
-        var i;
-        angular.forEach(items, function (value, key) {
-            for (i = 0; i < value.length; i = i + 1) {
-                angular.forEach(value[i], function (value2, key2) {
-                    if (value2 === search) {
-                        result.push(key);
-                    }
-                });
-            }
-        });
-        return result;
-    };
-});
-
-app.filter('reverse', function () {
-    return function(items) {
-        return items.slice().reverse();
-    };
-});                                 
+});                               
 
 
 /************************** GOOGLE MAPS SCRIPT ***************************/
-var map;
-
 function initMap() {
-    lamp1 = {lat: 30.365246, lng: -97.766667};
-    lamp2 = {lat: 30.286408, lng: -97.746623};
-    lamp3 = {lat: 30.287029, lng: -97.746717};
+    var lamp1 = {lat: 30.2911160, lng: -97.746465};
+    var lamp2 = {lat: 30.286408, lng: -97.746623};
+    var lamp3 = {lat: 30.287029, lng: -97.746717};
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 12,
         center: {lat: 30.32, lng: -97.72}
     });
-    var marker = new google.maps.Marker({
+    var marker1 = new google.maps.Marker({
         position: lamp1,
         map: map
     });
-    var marker = new google.maps.Marker({
+    var marker2 = new google.maps.Marker({
         position: lamp2,
         map: map
     });
-    var marker = new google.maps.Marker({
+    var marker3 = new google.maps.Marker({
         position: lamp3,
         map: map
     });
-}
+};
 
 
 /* Selecting Map View list items */
