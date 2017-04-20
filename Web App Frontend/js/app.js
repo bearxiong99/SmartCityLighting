@@ -9,6 +9,7 @@ app.controller('MainController', ['$scope', '$interval', '$http', function ($sco
     $scope.keys = [];
     $scope.chartType = 'Temperature';
     $scope.tabSwitch = true;
+    $scope.selected = 0;
     
     $scope.dummy = [
         {
@@ -128,8 +129,8 @@ app.controller('MainController', ['$scope', '$interval', '$http', function ($sco
                     'owner': lampData[0].owner,
                     'count': 1,
                     'address': lampData[0].address,
-                    'latitude': lampData[0].latitude,
-                    'longitude': lampData[0].longitude
+                    'latitude': parseFloat(lampData[0].latitude).toFixed(6),
+                    'longitude': parseFloat(lampData[0].longitude).toFixed(6)
                 }
             ];
 
@@ -149,8 +150,8 @@ app.controller('MainController', ['$scope', '$interval', '$http', function ($sco
                             'owner': lampData[k].owner,
                             'count': $scope.lamps[lampData[k].lamp_id].length + 1,
                             'address': lampData[k].address,
-                            'latitude': lampData[k].latitude,
-                            'longitude': lampData[k].longitude
+                            'latitude': parseFloat(lampData[k].latitude).toFixed(6),
+                            'longitude': parseFloat(lampData[k].longitude).toFixed(6)
                         }
                     );
                 } else {
@@ -167,14 +168,18 @@ app.controller('MainController', ['$scope', '$interval', '$http', function ($sco
                             'owner': lampData[k].owner,
                             'count': 1,
                             'address': lampData[k].address,
-                            'latitude': lampData[k].latitude,
-                            'longitude': lampData[k].longitude
+                            'latitude': parseFloat(lampData[k].latitude).toFixed(6),
+                            'longitude': parseFloat(lampData[k].longitude).toFixed(6)
                         }
                     ];
                 }
             }
             $scope.keys = Object.keys($scope.lamps);
         });
+    
+    $scope.select = function (selectedLampKey) {
+        $scope.selected = selectedLampKey;
+    };
     
 }]);
               
@@ -328,10 +333,12 @@ function initMap() {
     var lamp1 = {lat: 30.2911160, lng: -97.746465};
     var lamp2 = {lat: 30.286408, lng: -97.746623};
     var lamp3 = {lat: 30.287029, lng: -97.746717};
+    var lamp4 = {lat: 30.20, lng: -97.70};
+    var markers = [];
+    
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 12,
-        center: {lat: 30.32, lng: -97.72}
     });
+    
     var marker1 = new google.maps.Marker({
         position: lamp1,
         map: map
@@ -344,23 +351,13 @@ function initMap() {
         position: lamp3,
         map: map
     });
-};
-
-
-/* Selecting Map View list items */
-$(function () {
-    console.log('ready');
     
-    $('.list-group-item').click(function (e) {
-        e.preventDefault();
-        
-        $that = $(this);
-        
-        $previous = $that.hasClass('list-active');
-        
-        $that.parent().find('.list-group-item').removeClass('list-active');
-        if (!($previous)) {
-            $that.addClass('list-active');
-        }
-    });
-});
+    markers = [marker1, marker2, marker3];
+    var bounds = new google.maps.LatLngBounds();
+    for(var i=0; i<markers.length; i++){
+        bounds.extend(markers[i].getPosition());
+    };
+    
+    map.setCenter(bounds.getCenter());
+    map.fitBounds(bounds);
+};

@@ -58,12 +58,44 @@
         
             <div id="map-list" class="col-md-3">
                 <div class="list-group">
-                    <div class="list-group-item" ng-repeat="(key, lamp) in lamps">
+                    <div class="list-group-item" ng-repeat="(key, lamp) in lamps" data="{{key}}" ng-click"select(key)">
                         <h4>LAMP {{key}}</h4>
                         <p><strong>Address:</strong> {{lamp[0].address}}</p>
                         <p><strong>Operational:</strong> {{lamp[0].operational}}</p>
                         <p><strong>Latitude:</strong> {{lamp[0].latitude}}</p>
                         <p><strong>Longitude:</strong> {{lamp[0].longitude}}</p>
+                        
+                        <!-- Probably cannot access controller items within script tags of view, use ng-click isntead -->
+                        <script>
+                        $(".list-group-item").click(function() {
+                            /*var lat1 = {{lamp[0].latitude}};
+                            var long1 = {{lamp[0].longitude}};*/
+                            
+                            /* ^^^Need to be able to take lamp[0].latitude and return a NUMBER not a STRING*/
+                            $that = $(this);
+        
+                            $previous = $that.hasClass('list-active');
+        
+                            $that.parent().find('.list-group-item').removeClass('list-active');
+                            if (!($previous)) {
+                                $that.addClass('list-active');
+                            
+                            
+                                map = new google.maps.Map(document.getElementById('map'), {
+                                    zoom: 16,
+                                    center: {lat: 30.2, lng: -97.7}
+                                });
+                                
+                            }
+                        });
+                        /* ^^^^ this needs to be able to only show one active class at a time*/
+                            
+                            
+                        /*if({{key}} === {{selected}}){
+                            this.addClass("list-active");
+                            /* Add list-group-item class to the current div
+                        };*/
+                        </script>
                     </div>
                 </div>
             </div>
