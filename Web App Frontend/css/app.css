@@ -19,8 +19,8 @@ body {
 .jumbotron {
     padding-top: 8px;
     padding-bottom: 8px;
-    background: url("../images/lightbulbs.jpeg") no-repeat center center;
-    background-size: cover;
+    background: url("../images/SCLS_logo_transparent.png") no-repeat center center;
+    background-size: contain;
     color: black;
 
 }
@@ -39,7 +39,7 @@ body {
     color:white;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #AFBEDF;
+    background-color: #61C3FF;
     position: relative;
 }
 
@@ -181,7 +181,6 @@ body {
     margin-bottom: 5px;
     font-size: 16px;
 }
-
 
 /* ADDED BY ANKIT BELOW */
 

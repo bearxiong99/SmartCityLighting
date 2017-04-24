@@ -177,8 +177,41 @@ app.controller('MainController', ['$scope', '$interval', '$http', function ($sco
             $scope.keys = Object.keys($scope.lamps);
         });
     
-    $scope.select = function (selectedLampKey) {
-        $scope.selected = selectedLampKey;
+    var mapOptions = {
+        zoom: 4,
+        center: new google.maps.LatLng(40, -98)
+    }
+    
+    $scope.map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    
+    $scope.markers = [];
+    
+    var infoWindow = new google.maps.InfoWindow();
+    
+    var createMarker = function (info) {
+        
+        var marker = new google.maps.Marker({
+            map: $scope.map,
+            position: new google.maps.LatLng(info.latitude, info.longitude),
+            title: info.lamp_id
+        });
+        marker.content = '<div class="infoWindowContent>' + info.address + '</div>';
+        
+        google.maps.event.addListener(marker, 'click', function () {
+            infoWindow.setContent('<h2>' + marker.title + '</h2>' + marker.content);
+            infoWindow.open($scope.map, marker);
+        });
+        
+        $scope.markers.push(marker);
+    };
+        
+    for (i = 0; i < $scope.dummy.length; i++) {
+            createMarker($scope.dummy[i]);
+    }
+        
+    $scope.openInfoWindow = function (e, selectedMarker) {
+            e.preventDefault();
+            google.maps.event.trigger(selectedMarker, 'click');
     };
     
 }]);
@@ -329,7 +362,7 @@ app.directive('linearChart', function ($parse, $window) {
 
 
 /************************** GOOGLE MAPS SCRIPT ***************************/
-function initMap() {
+/*function initMap() {
     var lamp1 = {lat: 30.2911160, lng: -97.746465};
     var lamp2 = {lat: 30.286408, lng: -97.746623};
     var lamp3 = {lat: 30.287029, lng: -97.746717};
@@ -360,4 +393,4 @@ function initMap() {
     
     map.setCenter(bounds.getCenter());
     map.fitBounds(bounds);
-};
+};*/
