@@ -78,6 +78,7 @@ void txPayload(packetType type, uint8_t *payload, uint8_t len, uint8_t *dstAddr)
 void pingParentTask_init();
 void discoverTask_init();
 void sensorTask_init();
+void remove_kids_Task_init();
 bool createChildAddress(address* address);
 
 void receivedParentalPing(ParentalPingStruct *p) {
@@ -289,7 +290,7 @@ static void sensorFnx(UArg arg0, UArg arg1) {
         sensors.light = 33;
         sensors.motions = 44;
         sensors.temp = 55;*/
-        sensors.id = 1;
+        sensors.id = NODE_ID;
 
         txPayload(SensorData, (uint8_t*) &sensors, sizeof(SensorDataStruct), &node.parent_address.addr[0]); // Send sensor data to parent
     }
@@ -348,6 +349,7 @@ static void rfEasyLinkRxFnx(UArg arg0, UArg arg1)
 
     // These are initialized in here so they can be run after EasyLink is init'd,
     // EasyLinkInit is in here b/c it uses semaphores so needs to run inside a task
+    config_sensors();
     pingParentTask_init();
     discoverTask_init();
     sensorTask_init();
@@ -372,6 +374,8 @@ static void rfEasyLinkRxFnx(UArg arg0, UArg arg1)
 
     while(true) {
         Semaphore_pend(ezlnkSem, BIOS_WAIT_FOREVER);
+        rxPacket.rxTimeout = timeout;
+        rxPacket.absTime = 0;
         status = EasyLink_receive(&rxPacket);
         Semaphore_post(ezlnkSem);
 

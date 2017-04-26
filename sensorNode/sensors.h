@@ -22,7 +22,7 @@
 #include "HDC1010.h"
 
 uint8_t* structToArray(SensorDataStruct* s);
-void packageData(int temp, int humidity, int light, int amps, int motions, SensorDataStruct *sensorStruct);
+void packageData(uint16_t temp, uint16_t humidity, uint16_t light, uint16_t operational, uint16_t motions, SensorDataStruct *sensorStruct);
 void init_sensors(void);
 void getSensorData(SensorDataStruct *sensorStruct);
 void start_sensors(void);

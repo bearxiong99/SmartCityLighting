@@ -16,6 +16,7 @@ static PIN_Handle motionPinHandle;
 
 /*Thread that runs the OPT3001 light sensor.*/
 PIN_Config motionPinTable[] = {
+    CC1310_LAUNCHXL_DIO12  | PIN_INPUT_EN | PIN_PULLUP | PIN_IRQ_NEGEDGE,
     CC1310_LAUNCHXL_DIO21  | PIN_INPUT_EN | PIN_PULLUP | PIN_IRQ_NEGEDGE,
     PIN_TERMINATE
 };
@@ -26,24 +27,12 @@ PIN_Config motionPinTable[] = {
     I2C_Transaction i2cTransaction;
     ADC_Handle adc;
     int motions;
-    int light;
     int good_config;
 
 void motionCallbackFxn(PIN_Handle handle, PIN_Id pinId) {
     if (pinId == 21) {
         CPUdelay(250);
         motions += 1;
-    } else if (pinId == 12 && good_config) {
-        light = get_Light(txBuffer, rxBuffer, i2cTransaction, i2c);
-        int con = get_config(txBuffer, rxBuffer, i2cTransaction, i2c);
-        uint16_t exp = (light >> 12)&0x000F;
-        uint16_t mantissa = light & 0x0FFF;
-        uint32_t lux = 0.01*(mantissa<<exp);
-        if (lux < 50) {
-            LampOn();
-        } else {
-            LampOff();
-        }
     }
 }
 
@@ -62,11 +51,11 @@ void initMotion(void){
 }
 
 /*fill packet with sensor data*/
-void packageData(int temp, int humidity, int light, int amps, int motions, SensorDataStruct *sp) {
+void packageData(uint16_t temp, uint16_t humidity, uint16_t light, uint16_t operational, uint16_t motions, SensorDataStruct *sp) {
     sp->temp = temp;
     sp->humidity = humidity;
     sp->light = light;
-    sp->amps = amps;
+    sp->amps = operational;
     sp->motions = motions;
 }
 
@@ -81,11 +70,10 @@ void init_sensors(void){
 }
 
 void config_sensors(void) {
-    light = 0;
     int id = get_TI_ID(txBuffer, rxBuffer, i2cTransaction, i2c);
     good_config = config(txBuffer, rxBuffer, i2cTransaction, i2c);
     setConfig(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
-    initMotion();
+    //initMotion();
 }
 
 void getSensorData(SensorDataStruct *sensorStruct) {
@@ -101,10 +89,21 @@ void getSensorData(SensorDataStruct *sensorStruct) {
         adc_val = 1;                     //light functioning
     }
     z = !z;
-    light = get_Light(txBuffer, rxBuffer, i2cTransaction, i2c);
+    int configReg = get_config(txBuffer, rxBuffer, i2cTransaction, i2c);
+    int light = get_Light(txBuffer, rxBuffer, i2cTransaction, i2c);
+    uint16_t exp = (light >> 12)&0x000F;
+    uint16_t mantissa = light & 0x0FFF;
+    uint32_t lux = 0.01*(mantissa<<exp);
+    if (lux < 50) {
+        LampOn();
+    } else {
+        LampOff();
+    }
     int temp = getTemp(i2c, i2cTransaction, txBuffer, rxBuffer, DEFAULT_SLAVE);
     int hum = (rxBuffer[2] << 8) + rxBuffer[3];
 
     packageData(temp, hum, light, adc_val, motions, sensorStruct);
-    motions = 0;
+    //motions = 0;
+
+    motions = configReg;
 }

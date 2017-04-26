@@ -8,6 +8,6 @@
 #ifndef NODE_ID_H_
 #define NODE_ID_H_
 
-#define NODE_ID 0 // Change this when flashing different boards
+#define NODE_ID 1 // Change this when flashing different boards
 
 #endif /* NODE_ID_H_ */
